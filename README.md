@@ -1,63 +1,56 @@
-# CodeIgniter 4 Application Starter
+# Projeto Integrador em Computação I
 
-## What is CodeIgniter?
+## Sistema de Gerenciamento de Dados para Serviço de Assistência Social
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](http://codeigniter.com).
+Sobre o sistema
+Sobre o sistema Sobre o sistema Sobre o sistema Sobre o sistema Sobre o sistema.
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
+*Criado pelos alunos*
 
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
 
-## Installation & updates
+`Bruno Moura da Silva`
+`Eduardo Vieira Vilas Boas`
+`Andrew Nicholas Gomes Pedroso de Oliveira`
+`Edson Roberto Da Silva`
+`Joel Passo Moreira`
+`Célio Orlandelli`
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+E-mail para contato
+[2002564@aluno.univesp.br](mailto:2002564@aluno.univesp.br).
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
 
-## Setup
+Aenean dui odio, pulvinar non placerat vitae, porttitor et dui. Proin nulla odio, sodales a est a, semper aliquet purus. Maecenas tincidunt magna a blandit bibendum. Ut eget metus justo. Suspendisse a mi porttitor, luctus neque ac, consectetur dui. Pellentesque in venenatis nibh. Pellentesque metus erat, sollicitudin ac ultrices nec, commodo in elit.
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
 
-## Important Change with index.php
+## Instalação e atualizações
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
 
-**Please** read the user guide for a better explanation of how CI4 works!
+Praesent ligula odio, imperdiet ut enim nec, pretium bibendum orci. Pellentesque at diam eleifend, molestie sapien non, tincidunt augue. Nunc placerat felis et nulla mollis, eget facilisis nunc efficitur. Vestibulum varius ultricies lorem, eget mattis nisl sagittis non. Duis euismod est at tellus malesuada, vestibulum tempus velit sodales. Nulla eu mauris at sem ultricies viverra. In at magna et felis ullamcorper vulputate. Maecenas risus lectus, hendrerit non ipsum et, posuere volutpat quam. Morbi dolor mi, gravida vel consequat et, lobortis id purus. Nulla nec est quam. Nunc eu libero eros. Mauris venenatis elementum magna, a dapibus nunc malesuada sit amet. Aenean consequat sem urna, a aliquet elit scelerisque sed. Aenean consequat dapibus diam, eu hendrerit lectus euismod id. Morbi at ullamcorper tellus.
 
-## Repository Management
+## Configuração
 
-We use Github issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sapien ante, vehicula et eros ut, venenatis condimentum est. Nunc vehicula sit amet ligula et varius. Proin laoreet, quam non molestie blandit, ex felis consectetur dui, id ornare nisl dui a mi. Nulla auctor mauris in est aliquet vehicula. Phasellus mollis eros vitae fermentum cursus. Integer ac elementum libero. Maecenas porttitor est vitae magna sollicitudin, laoreet feugiat ligula porta.
 
-## Server Requirements
+Integer turpis leo, lacinia eget ligula id, porttitor ornare mauris. Sed finibus aliquam sapien, vitae molestie ligula lobortis malesuada. Quisque lectus elit, congue lacinia aliquet sit amet, varius ac neque. Curabitur blandit venenatis enim, vel fermentum urna dignissim venenatis. Nullam consectetur rutrum sapien, id iaculis elit efficitur sit amet. Integer bibendum eros at mollis placerat. Morbi luctus tristique lorem at rhoncus. Nunc dolor quam, venenatis at lorem et, vehicula maximus turpis. Nunc at ornare dolor.
 
-PHP version 7.3 or higher is required, with the following extensions installed:
+
+
+
+
+
+## Requisitos do sistema
+
+PHP versão 7.3 ou superior, com as seguintes extensões instaladas:
 
 - [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+- [libcurl](http://php.net/manual/en/curl.requirements.php) 
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+Além disso, certifique-se de que as seguintes extensões estejam habilitadas em seu PHP:
 
-- json (enabled by default - don't turn it off)
+- json (habilitado por padrão - não o destive)
 - [mbstring](http://php.net/manual/en/mbstring.installation.php)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
+- xml (habilitado por padrão - não o destive)
