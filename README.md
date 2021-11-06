@@ -10,7 +10,6 @@ Sobre o sistema Sobre o sistema Sobre o sistema Sobre o sistema Sobre o sistema.
 
 
 `Bruno Moura da Silva`
-
 `Eduardo Vieira Vilas Boas`
 `Andrew Nicholas Gomes Pedroso de Oliveira`
 `Edson Roberto Da Silva`
