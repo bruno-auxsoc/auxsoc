@@ -1,4 +1,4 @@
-<?= $this->extend('templates/admin-template.php') ?>
+<?= $this->extend('templates/modelo-template.php') ?>
 <?= $this->section('conteudo') ?>
 
     <!-- Content Header (Page header) -->
