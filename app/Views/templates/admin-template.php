@@ -373,7 +373,7 @@
     <strong>Copyright &copy; 2021 <a href="https://auxsoc.com.br">AuxSoc - Sistema para gestão de Assistência Social</a>.</strong>
     Todos os direitos reservados.
     <div class="float-right d-none d-sm-inline-block">
-      <b>Versão</b> 1.21.11
+      <b>Versão</b> 21.11.7
     </div>
   </footer>
 
@@ -439,18 +439,10 @@
 <script>
   $(function () {
     $("#example1").DataTable({
-      "responsive": true, "lengthChange": false, "autoWidth": false,
-      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+      "responsive": true, "searching": false, "lengthChange": false, "autoWidth": false,
+      // "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
     }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
-    $('#example2').DataTable({
-      "paging": true,
-      "lengthChange": false,
-      "searching": false,
-      "ordering": true,
-      "info": true,
-      "autoWidth": false,
-      "responsive": true,
-    });
+
   });
 </script>
 
