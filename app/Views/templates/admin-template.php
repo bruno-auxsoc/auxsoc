@@ -204,7 +204,7 @@
            <li class="nav-header">MENU</li>
 
            <li class="nav-item">
-            <a href="./index.html" class="nav-link active">
+            <a href="./dashboard" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>Dashboard</p>
             </a>
@@ -232,7 +232,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="pages/gallery.html" class="nav-link">
+            <a href="./psicologos" class="nav-link">
               <i class="nav-icon fa fa-user-md"></i>
 
               <p>
@@ -357,7 +357,9 @@
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <?= $this->renderSection('conteudo'); ?>
+
+    <?= $this->renderSection('conteudo') ?>
+
   </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
@@ -384,6 +386,7 @@
 <script>
   $.widget.bridge('uibutton', $.ui.button)
 </script>
+
 <!-- Bootstrap 4 -->
 <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- ChartJS -->
@@ -406,9 +409,7 @@
 <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
 <!-- AdminLTE App -->
 <script src="dist/js/adminlte.js"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="dist/js/demo.js"></script>
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="dist/js/pages/dashboard.js"></script>
+
+
 </body>
 </html>
