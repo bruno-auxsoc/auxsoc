@@ -1,6 +1,8 @@
-<?php namespace App\Models;
+<?php
 
-use Codeigniter\Model;
+namespace App\Models;
+
+use CodeIgniter\Model;
 
 
 class PsicologoModel extends Model
@@ -26,7 +28,7 @@ class PsicologoModel extends Model
 	protected $validationRules = [
 		'psicologo_nome' => [
 			'label' => 'Nome',
-			'rules' => 'required'
+			'rules' => 'required',
 			'errors' => [
 				'required' => 'Campo {field} obrigatório'
 			]
@@ -34,7 +36,7 @@ class PsicologoModel extends Model
 		],
 		'psicologo_crp' => [
 			'label' => 'CRP',
-			'rules' => 'required'
+			'rules' => 'required',
 			'errors' => [
 				'required' => 'Campo {field} obrigatório'
 			]

@@ -239,7 +239,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="./psicologos" class="nav-link">
+            <a href="./psicologo" class="nav-link">
               <i class="nav-icon fa fa-user-md"></i>
 
               <p>

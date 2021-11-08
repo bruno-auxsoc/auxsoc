@@ -1,6 +1,8 @@
 <?= $this->extend('templates/admin-template.php') ?>
 <?= $this->section('conteudo') ?>
 
+<?php phpinfo(); ?>
+
 <!-- Content Header (Page header) -->
 <div class="content-header">
   <div class="container-fluid">
