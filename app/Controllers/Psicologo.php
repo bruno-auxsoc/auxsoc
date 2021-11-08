@@ -12,12 +12,17 @@ class Psicologo extends BaseController
 
     	$psicologos = $psicologoModel ->findAll();
 
-    	echo "<pre>";
-    	print_r($psicologos);
-    	echo "</pre>";
+
+    	//  para testar dados vindo do bd
+    	// dd($psicologos);
+
+    	$dados = [
+    		'psicologos' => $psicologos
+    	];
 
 
-        return view('psicologos/index');
+
+        return view('psicologos/index', $dados);
     }
 
     
