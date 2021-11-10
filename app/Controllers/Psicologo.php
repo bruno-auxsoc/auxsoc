@@ -25,5 +25,15 @@ class Psicologo extends BaseController
         return view('psicologos/index', $dados);
     }
 
+    public function incluir()
+    {
+
+    }
+
+    public function editar()
+    {
+    	
+    }
+
     
 }
