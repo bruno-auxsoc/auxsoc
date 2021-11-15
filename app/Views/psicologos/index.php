@@ -10,7 +10,7 @@
       </div>
       <div class="col-sm-6">
         <ol class="breadcrumb float-sm-right">
-          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="./dashboard">Home</a></li>
           <li class="breadcrumb-item active">Psicólogos</li>
         </ol>
       </div>
@@ -28,6 +28,7 @@
         <div class="card">
           <div class="card-header">
             <h3 class="card-title">Cadastro de Psicólogos - <?php echo count($psicologos); ?> registro(s) encontrados</h3>
+            <a href="./psicologo/incluir" class="float-right btn btn-primary btn-sm">Novo Psicólogo</a>
           </div>
           <!-- /.card-header -->
           <div class="card-body">
@@ -45,10 +46,10 @@
 
                 <?php foreach ($psicologos as $psicologo) : ?>  
                   <tr>
-                    <td><?php echo $psicologo['psicologo_id']; ?></td>
-                    <td><?php echo $psicologo['psicologo_nome']; ?></td>
-                    <td><?php echo $psicologo['psicologo_crp']; ?></td>
-                    <td class="text-center">
+                    <td class="col-md-1"><?php echo $psicologo['psicologo_id']; ?></td>
+                    <td class="col-md-6"><?php echo $psicologo['psicologo_nome']; ?></td>
+                    <td class="col-md-3"><?php echo $psicologo['psicologo_crp']; ?></td>
+                    <td class="text-center col-md-2">
                       <?php  echo anchor("psicologo/{$psicologo['psicologo_id']}/editar", 'Editar', ['class' => 'btn btn-info btn-sm']); ?>
                       <?php  echo anchor("psicologo/{$psicologo['psicologo_id']}/excluir", 'Excluir', ['class' => 'btn btn-danger btn-sm']); ?>
                     </td>

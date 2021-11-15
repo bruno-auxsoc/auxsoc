@@ -33,6 +33,10 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Dashboard::index');
 
+
+$routes->add('psicologo/(:any)/editar', 'Psicologo::editar/$1');
+$routes->add('psicologo/(:any)/excluir', 'Psicologo::excluir/$1');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

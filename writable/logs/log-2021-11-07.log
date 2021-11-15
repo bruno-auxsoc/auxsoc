@@ -1,0 +1,1177 @@
+CRITICAL - 2021-11-07 10:59:11 --> syntax error, unexpected single-quoted string "errors", expecting "]"
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/bruno/De...')
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Psic...')
+#2 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Psic...')
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#4 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#8 {main}
+CRITICAL - 2021-11-07 15:01:51 --> syntax error, unexpected single-quoted string "errors", expecting "]"
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/bruno/De...')
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Psic...')
+#2 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Psic...')
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#4 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#8 {main}
+CRITICAL - 2021-11-07 15:02:37 --> syntax error, unexpected single-quoted string "errors", expecting "]"
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/bruno/De...')
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Psic...')
+#2 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Psic...')
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#4 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#8 {main}
+CRITICAL - 2021-11-07 15:02:40 --> syntax error, unexpected single-quoted string "errors", expecting "]"
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/bruno/De...')
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Psic...')
+#2 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Psic...')
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#4 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#8 {main}
+CRITICAL - 2021-11-07 15:05:36 --> Class "Codeigniter\Model" not found
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(264): include_once()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/bruno/De...')
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Psic...')
+#3 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Psic...')
+#4 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#9 {main}
+CRITICAL - 2021-11-07 15:06:42 --> Class "App\Models\Model" not found
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(264): include_once()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/bruno/De...')
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Psic...')
+#3 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Psic...')
+#4 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#9 {main}
+CRITICAL - 2021-11-07 15:10:41 --> Class "Codeigniter\Model" not found
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(264): include_once()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/bruno/De...')
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Psic...')
+#3 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Psic...')
+#4 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#9 {main}
+ERROR - 2021-11-07 15:16:55 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-07 15:16:55 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:17:27 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-07 15:17:27 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:17:30 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-07 15:17:30 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:17:38 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-07 15:17:38 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:17:39 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-07 15:17:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:17:49 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-07 15:17:49 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:17:51 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-07 15:17:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:18:48 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-07 15:18:48 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:18:50 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-07 15:18:50 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:18:56 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-07 15:18:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:18:57 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-07 15:18:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:19:54 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-07 15:19:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:19:56 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-07 15:19:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:20:01 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-07 15:20:01 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:20:49 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-07 15:20:49 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:20:51 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-07 15:20:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:48:40 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-07 15:48:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:50:09 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-07 15:50:09 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:50:10 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-07 15:50:10 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:50:29 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-07 15:50:29 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:50:31 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-07 15:50:31 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:50:33 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-07 15:50:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:51:44 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-07 15:51:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:51:46 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-07 15:51:46 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:51:48 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-07 15:51:48 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:52:43 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 15:52:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:52:45 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 15:52:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:53:00 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 15:53:00 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:53:15 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 15:53:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:53:27 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 15:53:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:53:29 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 15:53:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:56:19 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 15:56:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 15:56:21 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 15:56:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:01:28 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:01:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:09:25 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:09:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:09:28 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:09:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:09:29 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:09:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:09:30 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:09:30 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:09:31 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:09:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:09:50 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:09:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:15:34 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:15:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+CRITICAL - 2021-11-07 16:15:55 --> Class "CodeIgniter\Database\MySQL\Connection" not found
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('MySQL', 'CodeIgniter\\Dat...', Array)
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(11): CodeIgniter\Model->__construct()
+#4 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#9 {main}
+ERROR - 2021-11-07 16:16:06 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:16:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:19:00 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:19:00 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:19:02 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:19:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:20:40 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:20:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:20:48 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-07 16:20:48 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:21:17 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:21:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:21:48 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:21:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:21:49 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:21:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:21:51 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:21:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:22:31 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:22:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:22:40 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:22:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:24:13 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:24:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:24:19 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:24:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:24:24 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:24:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:24:49 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:24:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:24:51 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:24:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:27:32 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:27:32 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:27:33 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:27:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:27:36 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:27:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:27:46 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:27:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:30:02 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:30:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:32:47 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:32:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:32:49 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:32:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:33:28 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:33:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:33:29 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:33:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:33:30 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:33:30 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:34:08 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:34:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:37:05 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:37:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:37:07 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:37:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:37:08 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:37:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:39:05 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:39:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:39:07 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:39:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 16:39:08 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 16:39:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 18:44:16 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 18:44:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 18:44:18 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-11-07 18:44:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 18:46:06 --> Error connecting to the database: Access denied for user '****'@'192.168.64.1' (using password: NO)
+CRITICAL - 2021-11-07 18:46:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'192.168.64.1' (using password: NO)
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-07 18:55:18 --> Unknown column 'psicologos.deleted_at' in 'where clause'
+CRITICAL - 2021-11-07 18:55:18 --> Unknown column 'psicologos.deleted_at' in 'where clause'
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(13): CodeIgniter\BaseModel->findAll()
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#8 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#12 {main}

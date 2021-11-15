@@ -1,0 +1,66 @@
+CRITICAL - 2021-11-15 03:05:04 --> Arquivo inválido: templates/mensagens/sucesso.php
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/mensa...')
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render('templates/mensa...', Array, true)
+#2 /Users/bruno/Desktop/auxsoc/app/Controllers/Mensagem.php(8): view('templates/mensa...', Array)
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Mensagem->sucesso()
+#4 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mensagem))
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#8 {main}
+CRITICAL - 2021-11-15 03:07:43 --> Arquivo inválido: templates/mensagens/sucesso.php
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/mensa...')
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render('templates/mensa...', Array, true)
+#2 /Users/bruno/Desktop/auxsoc/app/Controllers/Mensagem.php(8): view('templates/mensa...', Array)
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Mensagem->sucesso()
+#4 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mensagem))
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#8 {main}
+CRITICAL - 2021-11-15 03:07:57 --> Arquivo inválido: templates/mensagens/sucesso.php
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/mensa...')
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render('templates/mensa...', Array, true)
+#2 /Users/bruno/Desktop/auxsoc/app/Controllers/Mensagem.php(8): view('templates/mensa...', Array)
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Mensagem->sucesso()
+#4 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mensagem))
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#8 {main}
+CRITICAL - 2021-11-15 03:09:59 --> Array to string conversion
+#0 /Users/bruno/Desktop/auxsoc/app/Views/templates/mensagens/sucesso.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/Users/bruno/De...', 16)
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/View/View.php(214): include('/Users/bruno/De...')
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render('templates/mensa...', Array, true)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Mensagem.php(8): view('templates/mensa...', Array)
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Mensagem->sucesso()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mensagem))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+CRITICAL - 2021-11-15 03:20:46 --> Trying to access array offset on value of type null
+#0 /Users/bruno/Desktop/auxsoc/app/Controllers/Mensagem.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/bruno/De...', 19)
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Mensagem->sucesso()
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mensagem))
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#6 {main}
+CRITICAL - 2021-11-15 03:22:23 --> Trying to access array offset on value of type null
+#0 /Users/bruno/Desktop/auxsoc/app/Controllers/Mensagem.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/bruno/De...', 19)
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Mensagem->sucesso()
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mensagem))
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#6 {main}
+CRITICAL - 2021-11-15 03:22:35 --> Trying to access array offset on value of type null
+#0 /Users/bruno/Desktop/auxsoc/app/Controllers/Mensagem.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/bruno/De...', 19)
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Mensagem->sucesso()
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mensagem))
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#6 {main}

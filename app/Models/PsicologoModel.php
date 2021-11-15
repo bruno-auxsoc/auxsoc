@@ -2,10 +2,7 @@
 
 namespace App\Models;
 
-use CodeIgniter\Model;
-
-
-class PsicologoModel extends Model
+class PsicologoModel extends BaseModel
 {
 
 	protected $table = 'psicologos';
