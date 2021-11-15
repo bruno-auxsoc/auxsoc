@@ -41,8 +41,8 @@ class Psicologo extends BaseController
     public function salvar()
     {
         $post = $this->request->getPost();
-        
-        if($this->psicologoModel->save($post)) {
+
+        if ($this->psicologoModel->save($post)) {
             return redirect()->to('mensagem/sucesso')->with('mensagem', [
                 'mensagem' => "Psicólogo salvo com sucesso",
                 'link' => [
@@ -52,12 +52,15 @@ class Psicologo extends BaseController
             ]);
         } else {
             $dados = [
-                'titulo'=> !empty($post['psicologo_id']) ? 'Editar Psicólogo': 'Novo Psicólogo',
+                'titulo' => !empty($post['psicologo_id']) ? 'Editar Psicólogo' : 'Novo Psicólogo',
                 'errors' => $this->psicologoModel->errors()
             ];
             echo view('psicologos/form', $dados);
         }
     }
+
+
+
 
     public function editar($id)
     {
@@ -70,15 +73,28 @@ class Psicologo extends BaseController
         echo view('psicologos/form', $dados);
     }
 
-    public function excluir($id)
+
+
+
+    public function excluir($id = null)
     {
-        $psicologo = $this->psicologoModel->getById($id);
-        $dados = [
-            'titulo'=> !empty($post['psicologo_id']) ? 'Editar Psicólogo': 'Novo Psicólogo',
-            'psicologo' => $psicologo
-        ];
-
-        echo view('psicologos/form', $dados);
+        if ($this->psicologoModel->delete($id)) {
+            return redirect()->to('mensagem/sucesso')->with('mensagem', [
+                'mensagem' => "Psicólogo excluído com sucesso",
+                'link' => [
+                    'to' => 'psicologo',
+                    'texto' => 'Voltar para Psicólogos'
+                ]
+            ]);
+        } else { {
+                return redirect()->to('mensagem/erro')->with('mensagem', [
+                    'mensagem' => "Erro ao exclui o Psicólogo",
+                    'link' => [
+                        'to' => 'psicologo',
+                        'texto' => 'Voltar para Psicólogos'
+                    ]
+                ]);
+            }
+        }
     }
-
 }

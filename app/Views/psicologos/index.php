@@ -51,7 +51,7 @@
                     <td class="col-md-3"><?php echo $psicologo['psicologo_crp']; ?></td>
                     <td class="text-center col-md-2">
                       <?php  echo anchor("psicologo/editar/{$psicologo['psicologo_id']}", 'Editar', ['class' => 'btn btn-info btn-sm']); ?>
-                      <?php  echo anchor("psicologo/excluir/{$psicologo['psicologo_id']}", 'Excluir', ['class' => 'btn btn-danger btn-sm']); ?>
+                      <?php  echo anchor("psicologo/excluir/{$psicologo['psicologo_id']}", 'Excluir', ['class' => 'btn btn-danger btn-sm', 'onclick' => 'return confirma()']); ?>
                     </td>
                     
                   </tr>
@@ -82,5 +82,17 @@
   <!-- /.container-fluid -->
 </section>
 <!-- /.content -->
+
+
+<script>
+  function confirma(){
+    if(!confirm("Deseja excluir o registro?")){
+      return false;
+    }
+    else{
+      return true;
+    }
+  }
+</script>
 
 <?= $this->endSection() ?>
