@@ -43,13 +43,12 @@
                     ?>
                     <div class="card-body">
                         <div class="form-group col-sm-6">
-                            <label for="psicologo_id">ID</label>
-                            <input type="text" class="form-control" name="psicologo_id" id="psicologo_id" placeholder="">
+                            <input type="hidden" class="form-control" name="psicologo_id" id="psicologo_id" placeholder="" value="<?php echo !empty($psicologo['psicologo_id']) ? $psicologo['psicologo_id'] : set_value('psicologo_id') ?>">
                         </div>
 
                         <div class="form-group col-sm-6">
                             <label for="psicologo_nome">Nome</label>
-                            <input type="text" class="form-control" name="psicologo_nome" id="psicologo_nome" placeholder="Digite o nome" autofocus value="" >
+                            <input type="text" class="form-control" name="psicologo_nome" id="psicologo_nome" placeholder="Digite o nome" autofocus value="<?php echo !empty($psicologo['psicologo_nome']) ? $psicologo['psicologo_nome'] : set_value('psicologo_nome') ?>" >
 
                             <?php if (!empty($errors['psicologo_nome'])) : ?>
                                 <div class="alert alert-danger mt-2"> <?php echo $errors['psicologo_nome'] ?> </div>
@@ -57,7 +56,7 @@
                         </div>
                         <div class="form-group col-sm-6">
                             <label for="psicologo_crp">CRP</label>
-                            <input type="text" class="form-control" name="psicologo_crp" id="psicologo_crp" placeholder="Digite o CRP" value="" >
+                            <input type="text" class="form-control" name="psicologo_crp" id="psicologo_crp" placeholder="Digite o CRP" value="<?php echo !empty($psicologo['psicologo_crp']) ? $psicologo['psicologo_crp'] : set_value('psicologo_crp') ?>" >
                             
                             <?php if (!empty($errors['psicologo_crp'])) : ?>
                                 <div class="alert alert-danger mt-2"> <?php echo $errors['psicologo_crp'] ?> </div>
@@ -71,7 +70,7 @@
                     <div class="card-footer">
                         <button type="submit" class="btn btn-primary">Salvar</button>
                     </div>
-                    </form>
+                    <?php echo form_close(); ?>
 
 
 

@@ -64,3 +64,51 @@ CRITICAL - 2021-11-15 03:22:35 --> Trying to access array offset on value of typ
 #4 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
 #6 {main}
+CRITICAL - 2021-11-15 11:15:45 --> Trying to access array offset on value of type null
+#0 /Users/bruno/Desktop/auxsoc/app/Views/psicologos/form.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/bruno/De...', 52)
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/View/View.php(214): include('/Users/bruno/De...')
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render('psicologos/form', Array, true)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(70): view('psicologos/form', Array)
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->editar('1')
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+CRITICAL - 2021-11-15 11:16:08 --> Trying to access array offset on value of type null
+#0 /Users/bruno/Desktop/auxsoc/app/Views/psicologos/form.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/bruno/De...', 52)
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/View/View.php(214): include('/Users/bruno/De...')
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render('psicologos/form', Array, true)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(70): view('psicologos/form', Array)
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->editar('1')
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+CRITICAL - 2021-11-15 11:18:33 --> Undefined variable $psicologo
+#0 /Users/bruno/Desktop/auxsoc/app/Views/psicologos/form.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/bruno/De...', 52)
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/View/View.php(214): include('/Users/bruno/De...')
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render('psicologos/form', Array, true)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(37): view('psicologos/form', Array)
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->incluir()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+CRITICAL - 2021-11-15 11:28:28 --> Undefined variable $dados
+#0 /Users/bruno/Desktop/auxsoc/app/Views/psicologos/form.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/bruno/De...', 34)
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/View/View.php(214): include('/Users/bruno/De...')
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render('psicologos/form', Array, true)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(37): view('psicologos/form', Array)
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->incluir()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}

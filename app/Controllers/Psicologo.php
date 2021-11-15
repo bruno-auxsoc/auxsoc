@@ -41,11 +41,8 @@ class Psicologo extends BaseController
     public function salvar()
     {
         $post = $this->request->getPost();
-
-
-
-
-        if ($this->psicologoModel->save($post)) {
+        
+        if($this->psicologoModel->save($post)) {
             return redirect()->to('mensagem/sucesso')->with('mensagem', [
                 'mensagem' => "Psicólogo salvo com sucesso",
                 'link' => [
@@ -66,8 +63,19 @@ class Psicologo extends BaseController
     {
         $psicologo = $this->psicologoModel->getById($id);
         $dados = [
+            'titulo' => 'Editar Psicólogo',
+            'psicologo' => $psicologo
+        ];
+
+        echo view('psicologos/form', $dados);
+    }
+
+    public function excluir($id)
+    {
+        $psicologo = $this->psicologoModel->getById($id);
+        $dados = [
             'titulo'=> !empty($post['psicologo_id']) ? 'Editar Psicólogo': 'Novo Psicólogo',
-            'errors' => $this->psicologoModel->errors()
+            'psicologo' => $psicologo
         ];
 
         echo view('psicologos/form', $dados);
