@@ -32,7 +32,7 @@ class AssistenteModel extends BaseModel
 
 		],
 		'assistente_cress' => [
-			'label' => 'CRP',
+			'label' => 'CRESS',
 			'rules' => 'required',
 			'errors' => [
 				'required' => 'Campo {field} obrigatório'

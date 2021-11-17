@@ -58,8 +58,8 @@
                             <label for="assistente_cress">CRP</label>
                             <input type="text" class="form-control" name="assistente_cress" id="assistente_cress" placeholder="Digite o CRP" value="<?php echo !empty($assistente['assistente_cress']) ? $psicologo['assistente_cress'] : set_value('assistente_cress') ?>" >
                             
-                            <?php if (!empty($errors['assistente_crp'])) : ?>
-                                <div class="alert alert-danger mt-2"> <?php echo $errors['assistente_crp'] ?> </div>
+                            <?php if (!empty($errors['assistente_cress'])) : ?>
+                                <div class="alert alert-danger mt-2"> <?php echo $errors['assistente_cress'] ?> </div>
                             <?php endif; ?>
                         </div>
 
