@@ -1,0 +1,42 @@
+ERROR - 2021-11-16 23:16:52 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-16 23:16:52 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(19): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-16 23:17:05 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-16 23:17:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(19): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
+ERROR - 2021-11-16 23:17:15 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-16 23:17:15 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/bruno/Desktop/auxsoc/app/Controllers/Psicologo.php(19): CodeIgniter\BaseModel->findAll()
+#5 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Psicologo->index()
+#6 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Psicologo))
+#7 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/bruno/Desktop/auxsoc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/bruno/Desktop/auxsoc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/bruno/De...')
+#10 {main}
