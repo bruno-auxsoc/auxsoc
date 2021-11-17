@@ -1,4 +1,8 @@
 spark
+composer.json
+composer.lock
+phpunit.xml.dist
+builds
 
 #-------------------------
 # Operating Specific Junk Files
