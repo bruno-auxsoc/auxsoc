@@ -67,7 +67,7 @@ class Assistente extends BaseController
         $assistente = $this->assistenteModel->getById($id);
         $dados = [
             'titulo' => 'Editar Assistente',
-            'Assistente' => $assistente
+            'assistente' => $assistente
         ];
 
         echo view('assistentes/form', $dados);

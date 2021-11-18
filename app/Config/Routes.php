@@ -37,6 +37,11 @@ $routes->get('/', 'Dashboard::index');
 $routes->get('psicologo/(:any)/editar', 'Psicologo::editar/$1');
 $routes->get('psicologo/(:any)/excluir', 'Psicologo::excluir/$1');
 
+
+$routes->get('assistente/(:any)/editar', 'Assistente::editar/$1');
+$routes->get('assistente/(:any)/excluir', 'Assistente::excluir/$1');
+
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

@@ -36,6 +36,7 @@
                     <!-- /.card-header -->
 
 
+
                     <!-- form start -->
                     <?php
                     helper('form');
@@ -43,7 +44,7 @@
                     ?>
                     <div class="card-body">
                         <div class="form-group col-sm-6">
-                            <input type="hidden" class="form-control" name="assistente_id" id="assistente_id" placeholder="" value="<?php echo !empty($assistente['assistente_id']) ? $$assistente['assistente_id'] : set_value('assistente_id') ?>">
+                            <input type="hidden" class="form-control" name="assistente_id" id="assistente_id" placeholder="" value="<?php echo !empty($assistente['assistente_id']) ? $assistente['assistente_id'] : set_value('assistente_id') ?>">
                         </div>
 
                         <div class="form-group col-sm-6">
@@ -55,8 +56,8 @@
                             <?php endif; ?>
                         </div>
                         <div class="form-group col-sm-6">
-                            <label for="assistente_cress">CRP</label>
-                            <input type="text" class="form-control" name="assistente_cress" id="assistente_cress" placeholder="Digite o CRP" value="<?php echo !empty($assistente['assistente_cress']) ? $psicologo['assistente_cress'] : set_value('assistente_cress') ?>" >
+                            <label for="assistente_cress">CRESS</label>
+                            <input type="text" class="form-control" name="assistente_cress" id="assistente_cress" placeholder="Digite o CRESS" value="<?php echo !empty($assistente['assistente_cress']) ? $assistente['assistente_cress'] : set_value('assistente_cress') ?>" >
                             
                             <?php if (!empty($errors['assistente_cress'])) : ?>
                                 <div class="alert alert-danger mt-2"> <?php echo $errors['assistente_cress'] ?> </div>
