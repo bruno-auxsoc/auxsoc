@@ -28,7 +28,7 @@
         <div class="card">
           <div class="card-header">
             <h3 class="card-title">Cadastro de Programas - <?php echo count($programas); ?> registro(s) encontrados</h3>
-            <a href="./programas/incluir" class="float-right btn btn-primary btn-sm">Novo Programa</a>
+            <a href="./programa/incluir" class="float-right btn btn-primary btn-sm">Novo Programa</a>
           </div>
           <!-- /.card-header -->
           <div class="card-body table-responsive">
@@ -36,18 +36,20 @@
               <thead>
                 <tr>
                   <th>ID</th>
+                  <th>Nome</th>
+                  <th>Ações</th>
 
                 </tr>
               </thead>
               <tbody>
 
-                <?php foreach ($programas as $programas) : ?>  
+                <?php foreach ($programas as $programa) : ?>  
                   <tr>
-                    <td class="col-md-1"><?php echo $programas['programas_id']; ?></td>
-                    <td class="col-md-6"><?php echo $programas['programas_nome']; ?></td>
+                    <td class="col-md-1"><?php echo $programa['programa_id']; ?></td>
+                    <td class="col-md-6"><?php echo $programa['programa_nome']; ?></td>
                     <td class="text-center col-md-2">
-                      <?php  echo anchor("programas/editar/{$programas['programas_id']}", 'Editar', ['class' => 'btn btn-info btn-sm']); ?>
-                      <?php  echo anchor("programas/excluir/{$programas['programas_id']}", 'Excluir', ['class' => 'btn btn-danger btn-sm', 'onclick' => 'return confirma()']); ?>
+                      <?php  echo anchor("programa/editar/{$programa['programa_id']}", 'Editar', ['class' => 'btn btn-info btn-sm']); ?>
+                      <?php  echo anchor("programa/excluir/{$programa['programa_id']}", 'Excluir', ['class' => 'btn btn-danger btn-sm', 'onclick' => 'return confirma()']); ?>
                     </td>
                     
                   </tr>
@@ -59,6 +61,8 @@
               <tfoot>
                 <tr>
                   <th>ID</th>
+                  <th>Nome</th>
+                  <th>Ações</th>
                 </tr>
               </tfoot>
             </table>

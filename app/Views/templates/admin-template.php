@@ -232,7 +232,7 @@ $ativo = $pagina[1];
            with font-awesome or any other icon font library -->
 
 
-            <li class="nav-header">MENU</li>
+            <li class="nav-header">Menu</li>
 
             <li class="nav-item">
 
@@ -263,10 +263,10 @@ $ativo = $pagina[1];
 
             <li class="nav-item">
               <a href="<?php echo base_url(); ?>/visita" class="nav-link <?php if ($ativo == "Visita") {
-                                                                          echo "active";
-                                                                        } else {
-                                                                          echo "";
-                                                                        } ?>">
+                                                                            echo "active";
+                                                                          } else {
+                                                                            echo "";
+                                                                          } ?>">
                 <i class="nav-icon fa fa-car"></i>
 
                 <p>
@@ -292,10 +292,10 @@ $ativo = $pagina[1];
 
             <li class="nav-item">
               <a href="<?php echo base_url(); ?>/assistente" class="nav-link <?php if ($ativo == "Assistente") {
-                                                                              echo "active";
-                                                                            } else {
-                                                                              echo "";
-                                                                            } ?>">
+                                                                                echo "active";
+                                                                              } else {
+                                                                                echo "";
+                                                                              } ?>">
                 <i class="nav-icon fa fa-user-md"></i>
 
                 <p>
@@ -320,10 +320,10 @@ $ativo = $pagina[1];
 
             <li class="nav-item">
               <a href="<?php echo base_url(); ?>/encaminhamento" class="nav-link <?php if ($ativo == "Encaminhamento") {
-                                                                                  echo "active";
-                                                                                } else {
-                                                                                  echo "";
-                                                                                } ?>">
+                                                                                    echo "active";
+                                                                                  } else {
+                                                                                    echo "";
+                                                                                  } ?>">
                 <i class="nav-icon fa fa-share"></i>
 
                 <p>
@@ -346,72 +346,69 @@ $ativo = $pagina[1];
               </a>
             </li>
 
-
-
-
-
+            <div style="border-bottom: 1px solid #4f5962;"></div>
 
             <li class="nav-item">
-              <a href="#" class="nav-link">
-                <i class="nav-icon far fa-circle text-info"></i>
-                <p>
-                  Projetos
-                  <i class="fas fa-angle-left right"></i>
-                </p>
-              </a>
-              <ul class="nav nav-treeview">
-                <li class="nav-item">
-                  <a href="<?php echo base_url(); ?>/programa" class="nav-link <?php if ($ativo == "Programa") {
-                                                                                echo "active";
-                                                                              } else {
-                                                                                echo "";
-                                                                              } ?>">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Programas</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="<?php echo base_url(); ?>/projeto" class="nav-link <?php if ($ativo == "Projeto") {
-                                                                                echo "active";
-                                                                              } else {
-                                                                                echo "";
-                                                                              } ?>">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Projetos</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="<?php echo base_url(); ?>/grupo" class="nav-link <?php if ($ativo == "Grupo") {
-                                                                              echo "active";
+              <a href="<?php echo base_url(); ?>/programa" class="nav-link <?php if ($ativo == "Programa") {
+                                                                              echo "text-info";
                                                                             } else {
                                                                               echo "";
                                                                             } ?>">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Grupos</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="<?php echo base_url(); ?>/participante" class="nav-link <?php if ($ativo == "Participante") {
-                                                                                    echo "active";
-                                                                                  } else {
-                                                                                    echo "";
-                                                                                  } ?>">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Participantes</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="<?php echo base_url(); ?>/encontro" class="nav-link <?php if ($ativo == "Encontro") {
-                                                                                echo "active";
-                                                                              } else {
-                                                                                echo "";
-                                                                              } ?>">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Encontros</p>
-                  </a>
-                </li>
-              </ul>
+                <i class="far fa-circle nav-icon"></i>
+                <p>Programas</p>
+              </a>
             </li>
+            <li class="nav-item">
+              <a href="<?php echo base_url(); ?>/projeto" class="nav-link <?php if ($ativo == "Projeto") {
+                                                                            echo "text-info";
+                                                                          } else {
+                                                                            echo "";
+                                                                          } ?>">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Projetos</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="<?php echo base_url(); ?>/grupo" class="nav-link <?php if ($ativo == "Grupo") {
+                                                                          echo "text-info";
+                                                                        } else {
+                                                                          echo "";
+                                                                        } ?>">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Grupos</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="<?php echo base_url(); ?>/participante" class="nav-link <?php if ($ativo == "Participante") {
+                                                                                  echo "text-info";
+                                                                                } else {
+                                                                                  echo "";
+                                                                                } ?>">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Participantes</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="<?php echo base_url(); ?>/encontro" class="nav-link <?php if ($ativo == "Encontro") {
+                                                                              echo "text-info";
+                                                                            } else {
+                                                                              echo "";
+                                                                            } ?>">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Encontros</p>
+              </a>
+            </li>
+
+
+
+            <div style="border-bottom: 1px solid #4f5962;"></div>
+
+
+
+
+
+
+
 
 
 
@@ -419,31 +416,31 @@ $ativo = $pagina[1];
             <li class="nav-header">Administrador</li>
             <li class="nav-item">
               <a href="<?php echo base_url(); ?>/usuario" class="nav-link <?php if ($ativo == "Usuario") {
-                                                                            echo "active";
+                                                                            echo "text-danger";
                                                                           } else {
                                                                             echo "";
                                                                           } ?>">
-                <i class="nav-icon far fa-circle text-danger"></i>
+                <i class="nav-icon far fa-circle"></i>
                 <p class="text">Usuários</p>
               </a>
             </li>
             <li class="nav-item">
               <a href="<?php echo base_url(); ?>/grupousuario" class="nav-link <?php if ($ativo == "GrupoUsuario") {
-                                                                                echo "active";
-                                                                              } else {
-                                                                                echo "";
-                                                                              } ?>">
-                <i class="nav-icon far fa-circle text-danger"></i>
+                                                                                  echo "text-danger";
+                                                                                } else {
+                                                                                  echo "";
+                                                                                } ?>">
+                <i class="nav-icon far fa-circle"></i>
                 <p class="text">Grupos</p>
               </a>
             </li>
             <li class="nav-item">
               <a href="<?php echo base_url(); ?>/grupoacesso" class="nav-link <?php if ($ativo == "GrupoAcesso") {
-                                                                                echo "active";
+                                                                                echo "text-danger";
                                                                               } else {
                                                                                 echo "";
                                                                               } ?>">
-                <i class="nav-icon far fa-circle text-danger"></i>
+                <i class="nav-icon far fa-circle"></i>
                 <p class="text">Permissões</p>
               </a>
             </li>

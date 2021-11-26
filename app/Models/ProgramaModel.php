@@ -2,11 +2,11 @@
 
 namespace App\Models;
 
-class ProgramasModel extends BaseModel
+class ProgramaModel extends BaseModel
 {
 
 	protected $table = 'programas';
-	protected $primaryKey = 'programas_id';
+	protected $primaryKey = 'programa_id';
 
 	protected $useSoftDeletes = true;
 
@@ -17,11 +17,12 @@ class ProgramasModel extends BaseModel
 	protected $useTimestamps = true;
 
 	protected $allowedFields = [
-		'programas_id',
+		'programa_id',
+		'programa_nome'
 	];
 
 	protected $validationRules = [
-		'programas_nome' => [
+		'programa_nome' => [
 			'label' => 'Nome',
 			'rules' => 'required',
 			'errors' => [

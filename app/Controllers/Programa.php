@@ -2,21 +2,21 @@
 
 namespace App\Controllers;
 
-use App\Models\ProgramasModel;
+use App\Models\ProgramaModel;
 use App\Controllers\BaseController;
 
-class Programas extends BaseController
+class Programa extends BaseController
 {
-    protected $programasModel;
+    protected $programaModel;
 
     public function __construct()
     {
-        $this->programasModel = new ProgramasModel();
+        $this->programaModel = new ProgramaModel();
     }
 
     public function index()
     {
-        $programas = $this->programasModel->findAll();
+        $programas = $this->programaModel->findAll();
 
 
         //  para testar dados vindo do bd
@@ -42,20 +42,20 @@ class Programas extends BaseController
     {
         $post = $this->request->getPost();
 
-        if ($this->programasModel->save($post)) {
+        if ($this->programaModel->save($post)) {
             return redirect()->to('mensagem/sucesso')->with('mensagem', [
                 'mensagem' => "Programa salvo com sucesso",
                 'link' => [
-                    'to' => 'programas',
+                    'to' => 'programa',
                     'texto' => 'Voltar para Programas'
                 ]
             ]);
         } else {
             $dados = [
-                'titulo' => !empty($post['programas_id']) ? 'Editar Programas' : 'Novo Programa',
-                'errors' => $this->programasModel->errors()
+                'titulo' => !empty($post['programa_id']) ? 'Editar Programa' : 'Novo Programa',
+                'errors' => $this->programaModel->errors()
             ];
-            echo view('programas/form', $dados);
+            echo view('programa/form', $dados);
         }
     }
 
@@ -64,10 +64,10 @@ class Programas extends BaseController
 
     public function editar($id)
     {
-        $programas = $this->programasModel->getById($id);
+        $programa = $this->programaModel->getById($id);
         $dados = [
-            'titulo' => 'Editar Programas',
-            'programas' => $programas
+            'titulo' => 'Editar Programa',
+            'programa' => $programa
         ];
 
         echo view('programas/form', $dados);
@@ -78,19 +78,19 @@ class Programas extends BaseController
 
     public function excluir($id = null)
     {
-        if ($this->programasModel->delete($id)) {
+        if ($this->programaModel->delete($id)) {
             return redirect()->to('mensagem/sucesso')->with('mensagem', [
                 'mensagem' => "Programa excluído com sucesso",
                 'link' => [
-                    'to' => 'programas',
+                    'to' => 'programa',
                     'texto' => 'Voltar para Programas'
                 ]
             ]);
         } else { {
                 return redirect()->to('mensagem/erro')->with('mensagem', [
-                    'mensagem' => "Erro ao excluir o Programas",
+                    'mensagem' => "Erro ao excluir o Programa",
                     'link' => [
-                        'to' => 'programas',
+                        'to' => 'programa',
                         'texto' => 'Voltar para Programas'
                     ]
                 ]);

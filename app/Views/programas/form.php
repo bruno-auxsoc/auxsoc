@@ -39,19 +39,20 @@
                     <!-- form start -->
                     <?php
                     helper('form');
-                    echo form_open('programas/salvar');
+                    echo form_open('programa/salvar');
                     ?>
                     <div class="card-body">
                         <div class="form-group col-sm-6">
-                            <input type="hidden" class="form-control" name="programas_id" id="programas_id" placeholder="" value="<?php echo !empty($programas['programas_id']) ? $programas['programas_id'] : set_value('programas_id') ?>">
+                            <input type="hidden" class="form-control" name="programa_id" id="programa_id" placeholder="" value="<?php echo !empty($programa['programa_id']) ? $programa['programa_id'] : set_value('programa_id') ?>">
                         </div>
 
                         <div class="form-group col-sm-6">
-                            <label for="programas_nome">Nome</label>
-                            <input type="text" class="form-control" name="programas_nome" id="programas_nome" placeholder="Digite o nome" autofocus value="<?php echo !empty($programas['programas_id']) ? $programas['programas_nome']) ? $programas['programas_id']) ? $programas['programas_nome'] : set_value('programas_nome') ?>" >
+                            <label for="programa_nome">Nome</label>
+                            <input type="text" class="form-control" name="programa_nome" id="programa_nome" placeholder="Digite o nome" autofocus value="<?php echo !empty($programa['programa_nome']) ? $programa['programa_nome'] : set_value('programa_nome') ?>" >
 
-                            <?php if (!empty($errors['programas_nome'])) : ?>
-                                <div class="alert alert-danger mt-2"> <?php echo $errors['programas_nome'] ?> </div>
+                            
+                            <?php if (!empty($errors['programa_nome'])) : ?>
+                                <div class="alert alert-danger mt-2"> <?php echo $errors['programa_nome'] ?> </div>
                             <?php endif; ?>
                         </div>
 
