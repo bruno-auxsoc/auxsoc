@@ -37,7 +37,7 @@
                 <tr>
                   <th>ID</th>
                   <th>Nome</th>
-                  <th>Cress</th>
+                  <th>CRESS</th>
                   <th>Ações</th>
 
                 </tr>
@@ -64,7 +64,7 @@
                 <tr>
                   <th>ID</th>
                   <th>Nome</th>
-                  <th>Cress</th>
+                  <th>CRESS</th>
                   <th>Ações</th>
 
                 </tr>

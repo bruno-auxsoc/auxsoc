@@ -235,7 +235,7 @@ $ativo = $pagina[1];
           </li>
 
           <li class="nav-item">
-            <a href="pages/gallery.html" class="nav-link">
+            <a href="<?php echo base_url();?>/familia" class="nav-link <?php if($ativo=="Familia"){echo "active";}else { echo ""; } ?>">
               <i class="nav-icon fa fa-users"></i>
 
               <p>
@@ -246,7 +246,7 @@ $ativo = $pagina[1];
 
 
           <li class="nav-item">
-            <a href="pages/gallery.html" class="nav-link">
+            <a href="<?php echo base_url();?>/visita" class="nav-link <?php if($ativo=="Visita"){echo "active";}else { echo ""; } ?>">
               <i class="nav-icon fa fa-car"></i>
               
               <p>
@@ -277,7 +277,7 @@ $ativo = $pagina[1];
           </li>
 
           <li class="nav-item">
-            <a href="pages/gallery.html" class="nav-link">
+            <a href="<?php echo base_url();?>/atendimento" class="nav-link <?php if($ativo=="Atendimento"){echo "active";}else { echo ""; } ?>">
               <i class="nav-icon fa fa-list"></i>
 
               <p>
@@ -287,7 +287,7 @@ $ativo = $pagina[1];
           </li>
 
           <li class="nav-item">
-            <a href="pages/gallery.html" class="nav-link">
+            <a href="<?php echo base_url();?>/encaminhamento" class="nav-link <?php if($ativo=="Encaminhamento"){echo "active";}else { echo ""; } ?>">
               <i class="nav-icon fa fa-share"></i>
 
               <p>
@@ -297,7 +297,7 @@ $ativo = $pagina[1];
           </li>
 
           <li class="nav-item">
-            <a href="pages/gallery.html" class="nav-link">
+            <a href="<?php echo base_url();?>/agendamento" class="nav-link <?php if($ativo=="Agendamento"){echo "active";}else { echo ""; } ?>">
               <i class="nav-icon fa fa-calendar"></i>
 
               <p>
@@ -321,25 +321,31 @@ $ativo = $pagina[1];
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/mailbox/mailbox.html" class="nav-link">
+                <a href="<?php echo base_url();?>/programa" class="nav-link <?php if($ativo=="Programa"){echo "active";}else { echo ""; } ?>">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Programas</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="<?php echo base_url();?>/projeto" class="nav-link <?php if($ativo=="Projeto"){echo "active";}else { echo ""; } ?>">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Projetos</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/mailbox/mailbox.html" class="nav-link">
+                <a href="<?php echo base_url();?>/grupo" class="nav-link <?php if($ativo=="Grupo"){echo "active";}else { echo ""; } ?>">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Grupos</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/mailbox/compose.html" class="nav-link">
+                <a href="<?php echo base_url();?>/participante" class="nav-link <?php if($ativo=="Participante"){echo "active";}else { echo ""; } ?>">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Participantes</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/mailbox/read-mail.html" class="nav-link">
+                <a href="<?php echo base_url();?>/encontro" class="nav-link <?php if($ativo=="Encontro"){echo "active";}else { echo ""; } ?>">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Encontros</p>
                 </a>
@@ -352,19 +358,19 @@ $ativo = $pagina[1];
 
           <li class="nav-header">Administrador</li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="<?php echo base_url();?>/usuario" class="nav-link <?php if($ativo=="Usuario"){echo "active";}else { echo ""; } ?>">
               <i class="nav-icon far fa-circle text-danger"></i>
               <p class="text">Usuários</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="<?php echo base_url();?>/grupousuario" class="nav-link <?php if($ativo=="GrupoUsuario"){echo "active";}else { echo ""; } ?>">
               <i class="nav-icon far fa-circle text-danger"></i>
               <p class="text">Grupos</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="<?php echo base_url();?>/grupoacesso" class="nav-link <?php if($ativo=="GrupoAcesso"){echo "active";}else { echo ""; } ?>">
               <i class="nav-icon far fa-circle text-danger"></i>
               <p class="text">Permissões</p>
             </a>

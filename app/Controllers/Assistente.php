@@ -88,7 +88,7 @@ class Assistente extends BaseController
             ]);
         } else { {
                 return redirect()->to('mensagem/erro')->with('mensagem', [
-                    'mensagem' => "Erro ao exclui o Assistente",
+                    'mensagem' => "Erro ao excluir o Assistente",
                     'link' => [
                         'to' => 'assistente',
                         'texto' => 'Voltar para Assistentes'

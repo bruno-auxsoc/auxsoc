@@ -88,7 +88,7 @@ class Psicologo extends BaseController
             ]);
         } else { {
                 return redirect()->to('mensagem/erro')->with('mensagem', [
-                    'mensagem' => "Erro ao exclui o Psicólogo",
+                    'mensagem' => "Erro ao excluir o Psicólogo",
                     'link' => [
                         'to' => 'psicologo',
                         'texto' => 'Voltar para Psicólogos'

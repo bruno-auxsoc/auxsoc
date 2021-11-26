@@ -42,6 +42,58 @@ $routes->get('assistente/(:any)/editar', 'Assistente::editar/$1');
 $routes->get('assistente/(:any)/excluir', 'Assistente::excluir/$1');
 
 
+$routes->get('agendamento/(:any)/editar', 'Agendamento::editar/$1');
+$routes->get('agendamento/(:any)/excluir', 'Agendamento::excluir/$1');
+
+
+$routes->get('encaminhamento/(:any)/editar', 'Encaminhamento::editar/$1');
+$routes->get('encaminhamento/(:any)/excluir', 'Encaminhamento::excluir/$1');
+
+
+$routes->get('atendimento/(:any)/editar', 'Atendimento::editar/$1');
+$routes->get('atendimento/(:any)/excluir', 'Atendimento::excluir/$1');
+
+
+$routes->get('visita/(:any)/editar', 'Visita::editar/$1');
+$routes->get('visita/(:any)/excluir', 'Visita::excluir/$1');
+
+
+$routes->get('familia/(:any)/editar', 'Famillia::editar/$1');
+$routes->get('familia/(:any)/excluir', 'Familia::excluir/$1');
+
+
+$routes->get('projeto/(:any)/editar', 'Projeto::editar/$1');
+$routes->get('projeto/(:any)/excluir', 'Projeto::excluir/$1');
+
+
+$routes->get('grupo/(:any)/editar', 'Grupo::editar/$1');
+$routes->get('grupo/(:any)/excluir', 'Grupo::excluir/$1');
+
+
+$routes->get('participante/(:any)/editar', 'Participante::editar/$1');
+$routes->get('participante/(:any)/excluir', 'Participante::excluir/$1');
+
+
+$routes->get('encontro/(:any)/editar', 'Encontro::editar/$1');
+$routes->get('encontro/(:any)/excluir', 'Encontro::excluir/$1');
+
+
+$routes->get('usuario/(:any)/editar', 'Usuario::editar/$1');
+$routes->get('usuario/(:any)/excluir', 'Usuario::excluir/$1');
+
+
+$routes->get('grupousuario/(:any)/editar', 'GrupoUsuario::editar/$1');
+$routes->get('grupousuario/(:any)/excluir', 'GrupoUsuario::excluir/$1');
+
+
+$routes->get('grupoacesso/(:any)/editar', 'GrupoAcesso::editar/$1');
+$routes->get('grupoacesso/(:any)/excluir', 'GrupoAcesso::excluir/$1');
+
+
+$routes->get('programa/(:any)/editar', 'Programa::editar/$1');
+$routes->get('programa/(:any)/excluir', 'Programa::excluir/$1');
+
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
