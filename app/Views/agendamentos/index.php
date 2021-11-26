@@ -38,6 +38,7 @@
                   <th>ID</th>
                   <th>Tipo</th>
                   <th>Data</th>
+                  <th>Hora</th>
                   <th>Descrição</th>
                   <th>Status</th>
                   <th>Solicitante</th>
@@ -53,7 +54,8 @@
                   <tr>
                     <td class="col-md-1"><?php echo $agendamento['agendamento_id']; ?></td>
                     <td class="col-md-1"><?php echo $agendamento['agendamento_tipo']; ?></td>
-                    <td class="col-md-1"><?php echo $agendamento['agendamento_data']; ?></td>
+                    <td class="col-md-1"><?php echo date_format(date_create($agendamento['agendamento_data']),"d/m/Y"); ?></td>
+                    <td class="col-md-1"><?php echo substr($agendamento['agendamento_hora'], 0, 5); ?></td>
                     <td class="col-md-2"><?php echo $agendamento['agendamento_desc']; ?></td>
                     <td class="col-md-2"><?php echo $agendamento['agendamento_status']; ?></td>
                     <td class="col-md-1"><?php echo $agendamento['agendamento_solicitante']; ?></td>
@@ -75,6 +77,7 @@
                   <th>ID</th>
                   <th>Tipo</th>
                   <th>Data</th>
+                  <th>Hora</th>
                   <th>Descrição</th>
                   <th>Status</th>
                   <th>Solicitante</th>
