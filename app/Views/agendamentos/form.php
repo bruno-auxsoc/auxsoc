@@ -46,41 +46,96 @@
                             <input type="hidden" class="form-control" name="agendamento_id" id="agendamento_id" placeholder="" value="<?php echo !empty($agendamento['agendamento_id']) ? $agendamento['agendamento_id'] : set_value('agendamento_id') ?>">
                         </div>
 
-                        <div class="form-group col-sm-6">
-                            <label for="agendamento_tipo">Tipo</label>
-                            <input type="text" class="form-control" name="agendamento_tipo" id="agendamento_tipo" placeholder="Digite o tipo" autofocus value="<?php echo !empty($agendamento['agendamento_tipo']) ? $agendamento['agendamento_tipo'] : set_value('agendamento_tipo') ?>">
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label for="agendamento_tipo">Tipo</label>
+                                <input type="text" class="form-control" name="agendamento_tipo" id="agendamento_tipo" placeholder="Digite o tipo" autofocus value="<?php echo !empty($agendamento['agendamento_tipo']) ? $agendamento['agendamento_tipo'] : set_value('agendamento_tipo') ?>">
 
-                            <?php if (!empty($errors['agendamento_tipo'])) : ?>
-                                <div class="alert alert-danger mt-2"> <?php echo $errors['agendamento_tipo'] ?> </div>
-                            <?php endif; ?>
-                        </div>
-                        <div class="form-group col-sm-6">
-                            <label for="agendamento_data">Data</label>
-                            <input type="datepicker" class="form-control" name="agendamento_data" id="agendamento_data" placeholder="Digite a data" value="<?php echo !empty($agendamento['agendamento_data']) ? $agendamento['agendamento_data'] : set_value('agendamento_data') ?>">
-
-                            <?php if (!empty($errors['agendamento_data'])) : ?>
-                                <div class="alert alert-danger mt-2"> <?php echo $errors['agendamento_data'] ?> </div>
-                            <?php endif; ?>
-                        </div>
-
-
-                        <div style="overflow:hidden;">
-                            <div class="form-group">
-                                <div class="row">
-                                    <div class="col-md-8">
-                                        <div id="datetimepicker12"></div>
-                                    </div>
-                                </div>
+                                <?php if (!empty($errors['agendamento_tipo'])) : ?>
+                                    <div class="alert alert-danger mt-2"> <?php echo $errors['agendamento_tipo'] ?> </div>
+                                <?php endif; ?>
                             </div>
-                            <script type="text/javascript">
-                                $(function() {
-                                    $('#datetimepicker12').datetimepicker({
-                                        inline: true,
-                                        sideBySide: true
-                                    });
-                                });
-                            </script>
+
+                            <div class="form-group col-sm-6">
+                                <label for="agendamento_desc">Descrição</label>
+                                <input type="text" class="form-control" name="agendamento_desc" id="agendamento_desc" placeholder="Digite a descrição" value="<?php echo !empty($agendamento['agendamento_desc']) ? $agendamento['agendamento_desc'] : set_value('agendamento_desc') ?>">
+
+                                <?php if (!empty($errors['agendamento_desc'])) : ?>
+                                    <div class="alert alert-danger mt-2"> <?php echo $errors['agendamento_desc'] ?> </div>
+                                <?php endif; ?>
+                            </div>
                         </div>
+
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label for="agendamento_data">Data</label>
+                                <input type="date" class="form-control" name="agendamento_data" id="agendamento_data" placeholder="Digite a data" value="<?php echo !empty($agendamento['agendamento_data']) ? $agendamento['agendamento_data'] : set_value('agendamento_data') ?>">
+
+                                <?php if (!empty($errors['agendamento_data'])) : ?>
+                                    <div class="alert alert-danger mt-2"> <?php echo $errors['agendamento_data'] ?> </div>
+                                <?php endif; ?>
+                            </div>
+
+                            <div class="form-group col-sm-6">
+                                <label for="agendamento_hora">Hora</label>
+                                <input type="time" class="form-control" name="agendamento_hora" id="agendamento_hora" placeholder="Digite a hora" value="<?php echo !empty($agendamento['agendamento_hora']) ? $agendamento['agendamento_hora'] : set_value('agendamento_hora') ?>">
+
+                                <?php if (!empty($errors['agendamento_hora'])) : ?>
+                                    <div class="alert alert-danger mt-2"> <?php echo $errors['agendamento_hora'] ?> </div>
+                                <?php endif; ?>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label for="agendamento_status">Status</label>
+                                <input type="text" class="form-control" name="agendamento_status" id="agendamento_status" placeholder="Digite o status" value="<?php echo !empty($agendamento['agendamento_status']) ? $agendamento['agendamento_status'] : set_value('agendamento_status') ?>">
+
+                                <?php if (!empty($errors['agendamento_status'])) : ?>
+                                    <div class="alert alert-danger mt-2"> <?php echo $errors['agendamento_status'] ?> </div>
+                                <?php endif; ?>
+                            </div>
+
+                            <div class="form-group col-sm-6">
+                                <label for="agendamento_solicitante">Solicitante</label>
+                                <input type="text" class="form-control" name="agendamento_solicitante" id="agendamento_solicitante" placeholder="Digite o solicitante" value="<?php echo !empty($agendamento['agendamento_solicitante']) ? $agendamento['agendamento_solicitante'] : set_value('agendamento_solicitante') ?>">
+
+                                <?php if (!empty($errors['agendamento_solicitante'])) : ?>
+                                    <div class="alert alert-danger mt-2"> <?php echo $errors['agendamento_solicitante'] ?> </div>
+                                <?php endif; ?>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label for="psicologo_id">Psicólogo</label>
+                                <input type="text" class="form-control" name="psicologo_id" id="psicologo_id" placeholder="Selecione o psicólogo" value="<?php echo !empty($agendamento['psicologo_id']) ? $agendamento['psicologo_id'] : set_value('psicologo_id') ?>">
+
+                                <?php if (!empty($errors['psicologo_id'])) : ?>
+                                    <div class="alert alert-danger mt-2"> <?php echo $errors['psicologo_id'] ?> </div>
+                                <?php endif; ?>
+                            </div>
+
+
+                            <div class="form-group col-sm-6">
+                                <label for="assistente_id">Assistente</label>
+                                <input type="text" class="form-control" name="assistente_id" id="assistente_id" placeholder="Selecione o assistente" value="<?php echo !empty($agendamento['assistente_id']) ? $agendamento['assistente_id'] : set_value('assistente_id') ?>">
+
+                                <?php if (!empty($errors['assistente_id'])) : ?>
+                                    <div class="alert alert-danger mt-2"> <?php echo $errors['assistente_id'] ?> </div>
+                                <?php endif; ?>
+                            </div>
+                        </div>
+
+
+
+
+
+
 
 
                     </div>
