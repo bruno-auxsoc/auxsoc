@@ -42,6 +42,46 @@ class AssistenteModel extends BaseModel
 
 	];
 
+
+	public function formDropDown(array $params = null, array $order = null)
+	{
+		$this->select('assistente_id, assistente_nome');
+
+		if (!is_null($params) && isset($params['assistente_id'])){
+			$this->where(['assistente_id' => $params['assistente_id']]);
+
+		}
+
+		$assistentesArray = $this->findAll();
+
+		$optionsAssistentes = array_column($assistentesArray, 'assistente_nome', 'assistente_id');
+
+		$optionsSelecione = [
+			'' => 'Selecione...'
+		];
+
+		$selectConteudo = $optionsSelecione + $optionsAssistentes;
+
+		$novoAssistente = [];
+
+		if(!is_null($params) && isset($params['opcaoNova'])){
+			if((bool)$params['opcaoNova'] === true){
+				$novoAssistente = [
+					'---' => [
+						'n' => 'Novo Assistente...'
+					]
+					];
+			}
+		}
+
+		$result = $selectConteudo + $novoAssistente;
+
+		return $result;
+	}
+
+
+
+
 }
 
 ?>

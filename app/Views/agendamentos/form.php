@@ -113,7 +113,7 @@
                         <div class="row">
                             <div class="form-group col-sm-6">
                                 <label for="psicologo_id">Psicólogo</label>
-                                <input type="text" class="form-control" name="psicologo_id" id="psicologo_id" placeholder="Selecione o psicólogo" value="<?php echo !empty($agendamento['psicologo_id']) ? $agendamento['psicologo_id'] : set_value('psicologo_id') ?>">
+                                <?php echo form_dropdown('psicologo_id', $psicologosDropDown, !empty($agendamento['psicologo_id']) ? $agendamento['psicologo_id'] : set_value('psicologo_id'), ['class' => 'form-control select2', 'id' => 'psicologo_id', 'name' => 'psicologo_id']) ?>
 
                                 <?php if (!empty($errors['psicologo_id'])) : ?>
                                     <div class="alert alert-danger mt-2"> <?php echo $errors['psicologo_id'] ?> </div>
@@ -123,7 +123,7 @@
 
                             <div class="form-group col-sm-6">
                                 <label for="assistente_id">Assistente</label>
-                                <input type="text" class="form-control" name="assistente_id" id="assistente_id" placeholder="Selecione o assistente" value="<?php echo !empty($agendamento['assistente_id']) ? $agendamento['assistente_id'] : set_value('assistente_id') ?>">
+                                <?php echo form_dropdown('assistente_id', $assistentesDropDown, !empty($agendamento['assistente_id']) ? $agendamento['assistente_id'] : set_value('assistente_id'), ['class' => 'form-control select2', 'id' => 'assistente_id', 'name' => 'assistente_id']) ?>
 
                                 <?php if (!empty($errors['assistente_id'])) : ?>
                                     <div class="alert alert-danger mt-2"> <?php echo $errors['assistente_id'] ?> </div>

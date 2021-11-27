@@ -18,21 +18,75 @@ class AgendamentoModel extends BaseModel
 
 	protected $allowedFields = [
 		'agendamento_id',
-		'agendamento_nome',
-		'agendamento_crp'
+		'agendamento_tipo',
+		'agendamento_data',
+		'agendamento_hora',
+		'agendamento_desc',
+		'agendamento_status',
+		'agendamento_solicitante',
+		'psicologo_id',
+		'assistente_id'
 	];
 
 	protected $validationRules = [
-		'agendamento_nome' => [
-			'label' => 'Nome',
+		'agendamento_tipo' => [
+			'label' => 'Tipo',
 			'rules' => 'required',
 			'errors' => [
 				'required' => 'Campo {field} obrigatório'
 			]
 
 		],
-		'agendamento_crp' => [
-			'label' => 'CRP',
+		'agendamento_data' => [
+			'label' => 'Data',
+			'rules' => 'required',
+			'errors' => [
+				'required' => 'Campo {field} obrigatório'
+			]
+
+		],
+		'agendamento_hora' => [
+			'label' => 'Hora',
+			'rules' => 'required',
+			'errors' => [
+				'required' => 'Campo {field} obrigatório'
+			]
+
+		],
+		'agendamento_desc' => [
+			'label' => 'Descrição',
+			'rules' => 'required',
+			'errors' => [
+				'required' => 'Campo {field} obrigatório'
+			]
+
+		],
+		'agendamento_status' => [
+			'label' => 'Status',
+			'rules' => 'required',
+			'errors' => [
+				'required' => 'Campo {field} obrigatório'
+			]
+
+		],
+		'agendamento_solicitante' => [
+			'label' => 'Solicitante',
+			'rules' => 'required',
+			'errors' => [
+				'required' => 'Campo {field} obrigatório'
+			]
+
+		],
+		'psicologo_id' => [
+			'label' => 'Psicólogo',
+			'rules' => 'required',
+			'errors' => [
+				'required' => 'Campo {field} obrigatório'
+			]
+
+		],
+		'assistente_id' => [
+			'label' => 'Assistente',
 			'rules' => 'required',
 			'errors' => [
 				'required' => 'Campo {field} obrigatório'

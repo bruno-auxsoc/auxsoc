@@ -52,6 +52,11 @@ $ativo = $pagina[1];
   <link rel="stylesheet" href="<?php echo base_url(); ?>/plugins/summernote/summernote-bs4.min.css">
 
 
+  <!-- Select2 -->
+  <link rel="stylesheet" href="../../plugins/select2/css/select2.min.css">
+  <link rel="stylesheet" href="../../plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+
+
 
 
 
@@ -527,9 +532,18 @@ $ativo = $pagina[1];
   <script src="<?php echo base_url(); ?>/adminlte/js/adminlte.js"></script>
 
 
+  <!-- Select2 -->
+  <script src="../../plugins/select2/js/select2.full.min.js"></script>
+
+
   <!-- Datatables script especifico para pagina -->
   <script>
     $(function() {
+
+      //Initialize Select2 Elements
+      $('.select2').select2()
+
+
       $("#example1").DataTable({
 
         "responsive": true,

@@ -42,6 +42,43 @@ class PsicologoModel extends BaseModel
 
 	];
 
+	public function formDropDown(array $params = null, array $order = null)
+	{
+		$this->select('psicologo_id, psicologo_nome');
+
+		if (!is_null($params) && isset($params['psicologo_id'])){
+			$this->where(['psicologo_id' => $params['psicologo_id']]);
+
+		}
+
+		$psicologosArray = $this->findAll();
+
+		$optionsPsicologos = array_column($psicologosArray, 'psicologo_nome', 'psicologo_id');
+
+		$optionsSelecione = [
+			'' => 'Selecione...'
+		];
+
+		$selectConteudo = $optionsSelecione + $optionsPsicologos;
+
+		$novoPsicologo = [];
+
+		if(!is_null($params) && isset($params['opcaoNova'])){
+			if((bool)$params['opcaoNova'] === true){
+				$novoPsicologo = [
+					'---' => [
+						'n' => 'Novo Psicologo...'
+					]
+					];
+			}
+		}
+
+		$result = $selectConteudo + $novoPsicologo;
+
+		return $result;
+	}
+
+
 }
 
 ?>
