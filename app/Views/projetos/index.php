@@ -10,7 +10,7 @@
       </div>
       <div class="col-sm-6">
         <ol class="breadcrumb float-sm-right">
-          <li class="breadcrumb-item"><a href="<?php echo base_url();?>/dashboard">Home</a></li>
+          <li class="breadcrumb-item"><a href="<?php echo base_url(); ?>/dashboard">Home</a></li>
           <li class="breadcrumb-item active">Projetos</li>
         </ol>
       </div>
@@ -37,19 +37,26 @@
                 <tr>
                   <th>ID</th>
                   <th>Nome</th>
+                  <th>Descrição</th>
+                  <th>Público</th>
+                  <th>Orientador</th>
+                  <th>Ações</th>
                 </tr>
               </thead>
               <tbody>
 
-                <?php foreach ($projetos as $projeto) : ?>  
+                <?php foreach ($projetos as $projeto) : ?>
                   <tr>
                     <td class="col-md-1"><?php echo $projeto['projeto_id']; ?></td>
-                    <td class="col-md-6"><?php echo $projeto['projeto_nome']; ?></td>
+                    <td class="col-md-2"><?php echo $projeto['projeto_nome']; ?></td>
+                    <td class="col-md-3"><?php echo $projeto['projeto_desc']; ?></td>
+                    <td class="col-md-2"><?php echo $projeto['projeto_publico_desc']; ?></td>
+                    <td class="col-md-2"><?php echo $projeto['projeto_orientador']; ?></td>
                     <td class="text-center col-md-2">
-                      <?php  echo anchor("projeto/editar/{$projeto['projeto_id']}", 'Editar', ['class' => 'btn btn-info btn-sm']); ?>
-                      <?php  echo anchor("projeto/excluir/{$projeto['projeto_id']}", 'Excluir', ['class' => 'btn btn-danger btn-sm', 'onclick' => 'return confirma()']); ?>
+                      <?php echo anchor("projeto/editar/{$projeto['projeto_id']}", 'Editar', ['class' => 'btn btn-info btn-sm']); ?>
+                      <?php echo anchor("projeto/excluir/{$projeto['projeto_id']}", 'Excluir', ['class' => 'btn btn-danger btn-sm', 'onclick' => 'return confirma()']); ?>
                     </td>
-                    
+
                   </tr>
 
                 <?php endforeach; ?>
@@ -60,6 +67,10 @@
                 <tr>
                   <th>ID</th>
                   <th>Nome</th>
+                  <th>Descrição</th>
+                  <th>Público</th>
+                  <th>Orientador</th>
+                  <th>Ações</th>
                 </tr>
               </tfoot>
             </table>
@@ -78,11 +89,10 @@
 
 
 <script>
-  function confirma(){
-    if(!confirm("Deseja excluir o registro?")){
+  function confirma() {
+    if (!confirm("Deseja excluir o registro?")) {
       return false;
-    }
-    else{
+    } else {
       return true;
     }
   }

@@ -19,6 +19,9 @@ class ProjetoModel extends BaseModel
 	protected $allowedFields = [
 		'projeto_id',
 		'projeto_nome',
+		'projeto_desc',
+		'projeto_publico_desc',
+		'projeto_orientador'
 	];
 
 	protected $validationRules = [
@@ -30,10 +33,34 @@ class ProjetoModel extends BaseModel
 			]
 
 		],
+		'projeto_desc' => [
+			'label' => 'Descrição',
+			'rules' => 'required',
+			'errors' => [
+				'required' => 'Campo {field} obrigatório'
+			]
+
+		],
+		'projeto_orientador' => [
+			'label' => 'Orientador',
+			'rules' => 'required',
+			'errors' => [
+				'required' => 'Campo {field} obrigatório'
+			]
+
+		],
+
+		'projeto_publico_desc' => [
+			'label' => 'Descrição do Público',
+			'rules' => 'required',
+			'errors' => [
+				'required' => 'Campo {field} obrigatório'
+			]
+
+		]
 
 
-	];
+
+];
 
 }
-
-?>

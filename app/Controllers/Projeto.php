@@ -17,10 +17,11 @@ class Projeto extends BaseController
     public function index()
     {
         $projetos = $this->projetoModel->findAll();
+        
 
 
         //  para testar dados vindo do bd
-        // dd($projetos);
+         //dd($projetos);
 
         $dados = [
             'projetos' => $projetos
@@ -42,7 +43,7 @@ class Projeto extends BaseController
     {
         $post = $this->request->getPost();
 
-        if ($this->projetooModel->save($post)) {
+        if ($this->projetoModel->save($post)) {
             return redirect()->to('mensagem/sucesso')->with('mensagem', [
                 'mensagem' => "Projeto salvo com sucesso",
                 'link' => [
