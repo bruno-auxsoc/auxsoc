@@ -2,39 +2,39 @@
 
 namespace App\Controllers;
 
-use App\Models\PsicologoModel;
+use App\Models\ProjetoModel;
 use App\Controllers\BaseController;
 
-class Psicologo extends BaseController
+class Projeto extends BaseController
 {
-    protected $psicologoModel;
+    protected $projetoModel;
 
     public function __construct()
     {
-        $this->psicologoModel = new PsicologoModel();
+        $this->projetoModel = new ProjetoModel();
     }
 
     public function index()
     {
-        $psicologos = $this->psicologoModel->findAll();
+        $projetos = $this->projetoModel->findAll();
 
 
         //  para testar dados vindo do bd
-        // dd($psicologos);
+        // dd($projetos);
 
         $dados = [
-            'psicologos' => $psicologos
+            'projetos' => $projetos
         ];
 
-        echo view('psicologos/index', $dados);
+        echo view('projetos/index', $dados);
     }
 
     public function incluir()
     {
         $dados = [
-            'titulo' => 'Novo Psicólogo'
+            'titulo' => 'Projeto'
         ];
-        echo view('psicologos/form', $dados);
+        echo view('projetos/form', $dados);
     }
 
     // salva os dados vindos do formulario
@@ -42,20 +42,20 @@ class Psicologo extends BaseController
     {
         $post = $this->request->getPost();
 
-        if ($this->psicologoModel->save($post)) {
+        if ($this->projetooModel->save($post)) {
             return redirect()->to('mensagem/sucesso')->with('mensagem', [
-                'mensagem' => "Psicólogo salvo com sucesso",
+                'mensagem' => "Projeto salvo com sucesso",
                 'link' => [
-                    'to' => 'psicologo',
-                    'texto' => 'Voltar para Psicólogos'
+                    'to' => 'projeto',
+                    'texto' => 'Voltar para Projetos'
                 ]
             ]);
         } else {
             $dados = [
-                'titulo' => !empty($post['psicologo_id']) ? 'Editar Psicólogo' : 'Novo Psicólogo',
-                'errors' => $this->psicologoModel->errors()
+                'titulo' => !empty($post['projeto_id']) ? 'Editar Projeto' : 'Novo Projeto',
+                'errors' => $this->projetoModel->errors()
             ];
-            echo view('psicologos/form', $dados);
+            echo view('projetos/form', $dados);
         }
     }
 
@@ -64,13 +64,13 @@ class Psicologo extends BaseController
 
     public function editar($id)
     {
-        $psicologo = $this->psicologoModel->getById($id);
+        $projeto = $this->projetoModel->getById($id);
         $dados = [
-            'titulo' => 'Editar Psicólogo',
-            'psicologo' => $psicologo
+            'titulo' => 'Editar Projeto',
+            'projeto' => $projeto
         ];
 
-        echo view('psicologos/form', $dados);
+        echo view('projetos/form', $dados);
     }
 
 
@@ -78,20 +78,20 @@ class Psicologo extends BaseController
 
     public function excluir($id = null)
     {
-        if ($this->psicologoModel->delete($id)) {
+        if ($this->projetoModel->delete($id)) {
             return redirect()->to('mensagem/sucesso')->with('mensagem', [
-                'mensagem' => "Psicólogo excluído com sucesso",
+                'mensagem' => "Projeto excluído com sucesso",
                 'link' => [
-                    'to' => 'psicologo',
-                    'texto' => 'Voltar para Psicólogos'
+                    'to' => 'projeto',
+                    'texto' => 'Voltar para Projetos'
                 ]
             ]);
         } else { {
                 return redirect()->to('mensagem/erro')->with('mensagem', [
-                    'mensagem' => "Erro ao excluir o Psicólogo",
+                    'mensagem' => "Erro ao excluir o Projeto",
                     'link' => [
-                        'to' => 'psicologo',
-                        'texto' => 'Voltar para Psicólogos'
+                        'to' => 'projeto',
+                        'texto' => 'Voltar para Projetos'
                     ]
                 ]);
             }
