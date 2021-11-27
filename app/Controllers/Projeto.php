@@ -42,7 +42,7 @@ class Projeto extends BaseController
     {
         $post = $this->request->getPost();
 
-        if ($this->projetooModel->save($post)) {
+        if ($this->projetoModel->save($post)) {
             return redirect()->to('mensagem/sucesso')->with('mensagem', [
                 'mensagem' => "Projeto salvo com sucesso",
                 'link' => [
