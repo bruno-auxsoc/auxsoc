@@ -17,10 +17,11 @@ class Projeto extends BaseController
     public function index()
     {
         $projetos = $this->projetoModel->findAll();
+        
 
 
         //  para testar dados vindo do bd
-        // dd($projetos);
+         //dd($projetos);
 
         $dados = [
             'projetos' => $projetos
