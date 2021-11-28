@@ -67,13 +67,25 @@
 
                         <div class="row">
                             <div class="form-group col-sm-6">
+                                <label for="membro_id">Membro</label>
+                                <input type="text" class="form-control" name="membro_id" id="membro_id" placeholder="Selecione o membro da família" value="<?php echo !empty($atendimento['membro_id']) ? $atendimento['membro_id'] : set_value('membro_id') ?>">
+
+                                <?php if (!empty($errors['membro_id'])) : ?>
+                                    <div class="alert alert-danger mt-2"> <?php echo $errors['membro_id'] ?> </div>
+                                <?php endif; ?>
+                            </div>
+
+                            <div class="form-group col-sm-6">
                                 <label for="atendimento_data">Data</label>
                                 <input type="date" class="form-control" name="atendimento_data" id="atendimento_data" placeholder="Digite a data" value="<?php echo !empty($atendimento['atendimento_data']) ? $atendimento['atendimento_data'] : set_value('atendimento_data') ?>">
-
+    
                                 <?php if (!empty($errors['atendimento_data'])) : ?>
                                     <div class="alert alert-danger mt-2"> <?php echo $errors['atendimento_data'] ?> </div>
                                 <?php endif; ?>
                             </div>
+                        </div>
+
+                        <div class="row">
 
                             <div class="form-group col-sm-6">
                                 <label for="atendimento_hora">Hora</label>
@@ -83,17 +95,15 @@
                                     <div class="alert alert-danger mt-2"> <?php echo $errors['atendimento_hora'] ?> </div>
                                 <?php endif; ?>
                             </div>
-                        </div>
 
-                        <div class="row">
-                        <div class="form-group col-sm-6">
+                            <div class="form-group col-sm-6">
                                 <label for="atendimento_desc">Descrição</label>
                                 <input type="text" class="form-control" name="atendimento_desc" id="atendimento_desc" placeholder="Digite a descrição" value="<?php echo !empty($atendimento['atendimento_desc']) ? $atendimento['atendimento_desc'] : set_value('atendimento_desc') ?>">
 
                                 <?php if (!empty($errors['atendimento_desc'])) : ?>
                                     <div class="alert alert-danger mt-2"> <?php echo $errors['atendimento_desc'] ?> </div>
                                 <?php endif; ?>
-                            </div>                            
+                            </div>
                         </div>
 
                     </div>

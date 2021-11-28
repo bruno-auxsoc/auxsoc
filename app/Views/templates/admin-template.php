@@ -119,7 +119,7 @@ $ativo = $pagina[1];
         <!-- Sidebar user panel (optional) -->
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
           <div class="image">
-            <img src="<?php echo base_url(); ?>/adminlte/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+            <img src="<?php echo base_url(); ?>/adminlte/img/bruno.png" class="img-circle elevation-2" alt="Bruno Moura">
           </div>
           <div class="info">
             <a href="#" class="d-block">Bruno Moura</a>
@@ -163,19 +163,7 @@ $ativo = $pagina[1];
             </li>
 
 
-            <li class="nav-item">
-              <a href="<?php echo base_url(); ?>/visita" class="nav-link <?php if ($ativo == "Visita") {
-                                                                            echo "active";
-                                                                          } else {
-                                                                            echo "";
-                                                                          } ?>">
-                <i class="nav-icon fa fa-car"></i>
 
-                <p>
-                  Visitas
-                </p>
-              </a>
-            </li>
 
             <li class="nav-item">
               <a href="<?php echo base_url(); ?>/psicologo" class="nav-link <?php if ($ativo == "Psicologo") {
@@ -202,6 +190,35 @@ $ativo = $pagina[1];
 
                 <p>
                   Assistentes
+                </p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="<?php echo base_url(); ?>/agendamento" class="nav-link <?php if ($ativo == "Agendamento") {
+                                                                                echo "active";
+                                                                              } else {
+                                                                                echo "";
+                                                                              } ?>">
+                <i class="nav-icon fa fa-calendar"></i>
+
+                <p>
+                  Agendamentos
+                </p>
+              </a>
+            </li>
+
+
+            <li class="nav-item">
+              <a href="<?php echo base_url(); ?>/visita" class="nav-link <?php if ($ativo == "Visita") {
+                                                                            echo "active";
+                                                                          } else {
+                                                                            echo "";
+                                                                          } ?>">
+                <i class="nav-icon fa fa-car"></i>
+
+                <p>
+                  Visitas
                 </p>
               </a>
             </li>
@@ -234,21 +251,8 @@ $ativo = $pagina[1];
               </a>
             </li>
 
-            <li class="nav-item">
-              <a href="<?php echo base_url(); ?>/agendamento" class="nav-link <?php if ($ativo == "Agendamento") {
-                                                                                echo "active";
-                                                                              } else {
-                                                                                echo "";
-                                                                              } ?>">
-                <i class="nav-icon fa fa-calendar"></i>
 
-                <p>
-                  Agendamentos
-                </p>
-              </a>
-            </li>
 
-            <div style="border-bottom: 1px solid #4f5962;"></div>
 
             <li class="nav-item">
               <a href="<?php echo base_url(); ?>/programa" class="nav-link <?php if ($ativo == "Programa") {
