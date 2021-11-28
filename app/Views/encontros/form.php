@@ -56,7 +56,7 @@
                         </div>
                         <div class="form-group col-sm-6">
                             <label for="grupo_id">Grupo</label>
-                            <input type="text" class="form-control" name="grupo_id" id="grupo_id" placeholder="Digite o Grupo" value="<?php echo !empty($grupo['grupo_id']) ? $grupo['grupo_id'] : set_value('grupo_id') ?>" >
+                            <input type="text" class="form-control" name="grupo_id" id="grupo_id" placeholder="Digite o grupo" value="<?php echo !empty($grupo['grupo_id']) ? $grupo['grupo_id'] : set_value('grupo_id') ?>" >
                             
                             <?php if (!empty($errors['grupo_id'])) : ?>
                                 <div class="alert alert-danger mt-2"> <?php echo $errors['grupo_id'] ?> </div>
