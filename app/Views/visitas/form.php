@@ -38,7 +38,7 @@
 
                     <!-- form start -->
                     <?php
-                    helper('form');
+
                     echo form_open('visita/salvar');
                     ?>
                     <div class="card-body">
@@ -87,14 +87,26 @@
                         </div>
 
                         <div class="row">
-                        <div class="form-group col-sm-6">
+                            <div class="form-group col-sm-6">
                                 <label for="visita_desc">Descrição</label>
                                 <input type="text" class="form-control" name="visita_desc" id="visita_desc" placeholder="Digite a descrição" value="<?php echo !empty($atendimento['visita_desc']) ? $atendimento['visita_desc'] : set_value('visita_desc') ?>">
 
                                 <?php if (!empty($errors['visita_desc'])) : ?>
                                     <div class="alert alert-danger mt-2"> <?php echo $errors['visita_desc'] ?> </div>
                                 <?php endif; ?>
-                            </div>                            
+                            </div>
+
+
+                            <div class="form-group col-sm-6">
+                                <label for="familia_id">Familia</label>
+                                <input type="text" class="form-control" name="familia_id" id="familia_id" placeholder="Selecione a familia" value="<?php echo !empty($atendimento['familia_id']) ? $atendimento['familia_id'] : set_value('familia_id') ?>">
+
+                                <?php if (!empty($errors['familia_id'])) : ?>
+                                    <div class="alert alert-danger mt-2"> <?php echo $errors['familia_id'] ?> </div>
+                                <?php endif; ?>
+                            </div>
+
+
                         </div>
 
                     </div>

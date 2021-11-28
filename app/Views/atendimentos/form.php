@@ -38,7 +38,7 @@
 
                     <!-- form start -->
                     <?php
-                    helper('form');
+
                     echo form_open('atendimento/salvar');
                     ?>
                     <div class="card-body">
