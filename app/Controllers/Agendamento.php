@@ -49,8 +49,6 @@ class Agendamento extends BaseController
                 'opcaoNova' => false
             ]
             )
-            
-            
         ];
         echo view('agendamentos/form', $dados);
     }
@@ -120,7 +118,7 @@ class Agendamento extends BaseController
                 ]
             ]);
         
-    }
+        }
         
     }
 
@@ -148,8 +146,6 @@ class Agendamento extends BaseController
             
         }
     }
-
-
 
     public function nomePsicologo($id){
         $psicologo = $this->psicologoModel->getById($id);

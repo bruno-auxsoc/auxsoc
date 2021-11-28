@@ -47,7 +47,7 @@
                         </div>
 
                         <div class="row">
-                        <div class="form-group col-sm-6">
+                            <div class="form-group col-sm-6">
                                 <label for="encaminhamento_tipo">Tipo</label>
                                 <input type="text" class="form-control" name="encaminhamento_tipo" id="encaminhamento_tipo" placeholder="Digite a tiporição" value="<?php echo !empty($encaminhamento['encaminhamento_tipo']) ? $encaminhamento['encaminhamento_tipo'] : set_value('encaminhamento_tipo') ?>">
 
@@ -70,8 +70,20 @@
                             <input type="hidden" class="form-control" name="atendimento_id" id="atendimento_id" placeholder="" value="<?php echo !empty($atendimento['atendimento_id']) ? $atendimento['atendimento_id'] : set_value('atendimento_id') ?>">
                         </div>
                     </div>
+                    
+                    <div class="row">
+                    '<div class="form-group col-sm-6">
+                                <label for="atendimento_id">Atendimento</label>
+                                <?php echo form_dropdown('atendimento_id', $atendimentosDropDown, !empty($encaminhamento['atendimento_id']) ? $encaminhamento['atendimento_id'] : set_value('atendimento_id'),['class' => 'form-control select2', 'id' => 'atendimento_id', 'name' => 'atendimento_id']) ?>
+
+                                <?php if (!empty($errors['atendimento_id'])) : ?>
+                                    <div class="alert alert-danger mt-2"> <?php echo $errors['atendimento_id'] ?> </div>
+                                <?php endif; ?>
+                            </div>
+                    </div>
                     <!-- /.card-body -->
 
+                    
                     <div class="card-footer">
                         <button type="submit" class="btn btn-primary">Salvar</button>
                     </div>

@@ -37,7 +37,7 @@
                 <tr>
                   <th>ID</th>
                   <th>Nome</th>
-                  <th>Período</th>
+                  <th>Periodo</th>
                   <th>Oficineiro</th>
                   <th>Ações</th>
 
