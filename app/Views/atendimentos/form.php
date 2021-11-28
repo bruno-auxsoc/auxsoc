@@ -68,7 +68,7 @@
                         <div class="row">
                             <div class="form-group col-sm-6">
                                 <label for="membro_id">Membro</label>
-                                <input type="text" class="form-control" name="membro_id" id="membro_id" placeholder="Selecione o psicólogo" value="<?php echo !empty($atendimento['membro_id']) ? $atendimento['membro_id'] : set_value('membro_id') ?>">
+                                <input type="text" class="form-control" name="membro_id" id="membro_id" placeholder="Selecione o membro da família" value="<?php echo !empty($atendimento['membro_id']) ? $atendimento['membro_id'] : set_value('membro_id') ?>">
 
                                 <?php if (!empty($errors['membro_id'])) : ?>
                                     <div class="alert alert-danger mt-2"> <?php echo $errors['membro_id'] ?> </div>

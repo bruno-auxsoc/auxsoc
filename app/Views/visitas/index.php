@@ -53,6 +53,7 @@
                     <td class="col-md-1"><?php echo $visita['visita_id']; ?></td>
                     <td class="col-md-1"><?php echo $visita['assistente_id']; ?></td>
                     <td class="col-md-1"><?php echo $visita['psicologo_id']; ?></td>
+                    <td class="col-md-1"><?php echo $visita['familia_id']; ?></td>
                     <td class="col-md-1"><?php echo date_format(date_create($visita['visita_data']),"d/m/Y"); ?></td>
                     <td class="col-md-1"><?php echo substr($visita['visita_hora'], 0, 5); ?></td>
                     <td class="col-md-2"><?php echo $visita['visita_desc']; ?></td>

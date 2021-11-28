@@ -12,7 +12,7 @@
       </div><!-- /.col -->
       <div class="col-sm-6">
         <ol class="breadcrumb float-sm-right">
-          <li class="breadcrumb-item"><a href="<?php echo base_url();?>/dashboard">Home</a></li>
+          <li class="breadcrumb-item"><a href="<?php echo base_url(); ?>/dashboard">Home</a></li>
           <li class="breadcrumb-item active">Dashboard</li>
         </ol>
       </div><!-- /.col -->
@@ -45,14 +45,15 @@
         <!-- small box -->
         <div class="small-box bg-success">
           <div class="inner">
-            <h3>53<sup style="font-size: 20px">%</sup></h3>
+            <!-- <h3>53<sup style="font-size: 20px">%</sup></h3> -->
+            <h3><?php echo count($visitas); ?></h3>
 
-            <p>Encaminhamentos</p>
+            <p>Visitas</p>
           </div>
           <div class="icon">
-            <i class="ion ion-share"></i>
+            <i class="ion ion-android-car"></i>
           </div>
-          <a href="#" class="small-box-footer">Ver mais <i class="fas fa-arrow-circle-right"></i></a>
+          <a href="<?php echo base_url(); ?>/visita" class="small-box-footer">Ver mais <i class="fas fa-arrow-circle-right"></i></a>
         </div>
       </div>
       <!-- ./col -->
@@ -60,14 +61,14 @@
         <!-- small box -->
         <div class="small-box bg-warning">
           <div class="inner">
-            <h3>44</h3>
+            <h3><?php echo count($atendimentos); ?></h3>
 
-            <p>Participantes</p>
+            <p>Atendimentos</p>
           </div>
           <div class="icon">
-            <i class="ion ion-person-add"></i>
+            <i class="ion ion-ios-list-outline"></i>
           </div>
-          <a href="#" class="small-box-footer">Ver mais <i class="fas fa-arrow-circle-right"></i></a>
+          <a href="<?php echo base_url(); ?>/atendimento" class="small-box-footer">Ver mais <i class="fas fa-arrow-circle-right"></i></a>
         </div>
       </div>
       <!-- ./col -->
