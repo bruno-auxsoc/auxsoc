@@ -23,7 +23,8 @@ class Agendamento extends BaseController
 
     public function index()
     {
-        $agendamentos = $this->agendamentoModel->findAll();
+        $agendamentos = $this->agendamentoModel->getAllWithPsicologoseAssistentes();
+        
 
 
         //  para testar dados vindo do bd
@@ -41,11 +42,11 @@ class Agendamento extends BaseController
         $dados = [
             'titulo' => 'Novo Agendamento',
             'psicologosDropDown' => $this->psicologoModel->formDropDown([
-                'opcaoNova' => true
+                'opcaoNova' => false
             ]
             ),
             'assistentesDropDown' => $this->assistenteModel->formDropDown([
-                'opcaoNova' => true
+                'opcaoNova' => false
             ]
             )
             
@@ -59,6 +60,7 @@ class Agendamento extends BaseController
     {
         $post = $this->request->getPost();
 
+        
         if ($this->agendamentoModel->save($post)) {
             return redirect()->to('mensagem/sucesso')->with('mensagem', [
                 'mensagem' => "Agendamento salvo com sucesso",
@@ -71,8 +73,12 @@ class Agendamento extends BaseController
             $dados = [
                 'titulo' => !empty($post['agendamento_id']) ? 'Editar Agendamento' : 'Novo Agendamento',
                 'errors' => $this->agendamentoModel->errors(),
-                'formDropDown' => $this->psicologoModel->formDropDown([
-                    'opcaoNova' => true
+                'psicologosDropDown' => $this->psicologoModel->formDropDown([
+                    'opcaoNova' => false
+                ]
+                ),
+                'assistentesDropDown' => $this->assistenteModel->formDropDown([
+                    'opcaoNova' => false
                 ]
                 )
             ];
@@ -141,5 +147,14 @@ class Agendamento extends BaseController
                 ]);
             
         }
+    }
+
+
+
+    public function nomePsicologo($id){
+        $psicologo = $this->psicologoModel->getById($id);
+
+        return $psicologo['psicologo_nome'];
+
     }
 }

@@ -39,7 +39,7 @@
 
                     <!-- form start -->
                     <?php
-                    helper('form');
+
                     echo form_open('assistente/salvar');
                     ?>
                     <div class="card-body">

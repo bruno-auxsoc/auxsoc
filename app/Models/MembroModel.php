@@ -41,7 +41,7 @@ class MembroModel extends BaseModel
 				'required' => 'Campo {field} obrigatório'
 			]
 
-		]
+			],
 
 		'membro_cpf' => [
 			'label' => 'CPF',

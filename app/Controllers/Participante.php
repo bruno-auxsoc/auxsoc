@@ -8,15 +8,17 @@ use App\Controllers\BaseController;
 class Participante extends BaseController
 {
     protected $participanteModel;
+    protected $grupoModel;
 
     public function __construct()
     {
         $this->participanteModel = new ParticipanteModel();
+        // $this->grupoModel = new GrupoModel();
     }
 
     public function index()
     {
-        $participantes = $this->participanteModel->findAll();
+        $participantes = $this->participanteModel->getAllWithGrupos();
 
 
         //  para testar dados vindo do bd
@@ -32,7 +34,11 @@ class Participante extends BaseController
     public function incluir()
     {
         $dados = [
-            'titulo' => 'Novo Participante'
+            'titulo' => 'Novo Participante',
+            'gruposDropDown' => $this->grupoModel->formDropDown([
+                'opcaoNova' => false
+            ]
+            )
         ];
         echo view('participantes/form', $dados);
     }

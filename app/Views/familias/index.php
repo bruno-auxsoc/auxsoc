@@ -50,11 +50,16 @@
                                     <tr>
                                         <td class="col-md-1"><?php echo $familia['familia_id']; ?></td>
                                         <td class="col-md-2"><?php echo $familia['familia_responsavel']; ?></td>
+                                        
                                         <td class="col-md-3">
                                             <?php
                                             echo "Inclusão: ";
                                             echo date_format(date_create($familia['familia_inclusao_paif']), 'd/m/Y');
-                                            if (!is_null($familia['familia_exclusao_paif'])) {
+
+                                            if ($familia['familia_exclusao_paif'] == "0000-00-00" ) {
+                                                echo "";
+                                            }
+                                            else if (!is_null($familia['familia_exclusao_paif'])) {
                                                 echo " | ";
                                                 echo "Exclusão: ";
                                                 echo date_format(date_create($familia['familia_exclusao_paif']), 'd/m/Y');

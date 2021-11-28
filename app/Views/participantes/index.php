@@ -10,7 +10,7 @@
       </div>
       <div class="col-sm-6">
         <ol class="breadcrumb float-sm-right">
-          <li class="breadcrumb-item"><a href="<?php echo base_url();?>/dashboard">Home</a></li>
+          <li class="breadcrumb-item"><a href="<?php echo base_url(); ?>/dashboard">Home</a></li>
           <li class="breadcrumb-item active">Participantes</li>
         </ol>
       </div>
@@ -35,28 +35,34 @@
             <table id="example1" class="table table-bordered table-striped">
               <thead>
                 <tr>
+                  <th>ID</th>
+                  <th>Grupo</th>
                   <th>Nome</th>
                   <th>CPF</th>
-                  <th>Data</th>
+                  <th>Data Nasc.</th>
                   <th>Telefone</th>
+                  <th>Frequência</th>
                   <th>Ações</th>
 
                 </tr>
               </thead>
               <tbody>
 
-                <?php foreach ($participantes as $participante) : ?>  
+                <?php foreach ($participantes as $participante) : ?>
                   <tr>
                     <td class="col-md-1"><?php echo $participante['participante_id']; ?></td>
+                    <td class="col-md-2"><?php echo $participante['grupo_nome']; ?></td>
+
                     <td class="col-md-3"><?php echo $participante['participante_nome']; ?></td>
-                    <td class="col-md-2"><?php echo $participante['participante_cpf']; ?></td>
-                    <td class="col-md-1"><?php echo $participante['participante_dn']; ?></td>
-                    <td class="col-md-2"><?php echo $participante['participante_telefone']; ?></td>
+                    <td class="col-md-1"><?php echo $participante['participante_cpf']; ?></td>
+                    <td class="col-md-1"><?php echo date_format(date_create($participante['participante_dn']), 'd/m/Y'); ?></td>
+                    <td class="col-md-1"><?php echo $participante['participante_telefone']; ?></td>
+                    <td class="col-md-1"><?php echo $participante['participante_frequencia']; ?></td>
                     <td class="text-center col-md-2">
-                      <?php  echo anchor("participante/editar/{$participante['participante_id']}", 'Editar', ['class' => 'btn btn-info btn-sm']); ?>
-                      <?php  echo anchor("participante/excluir/{$participante['participante_id']}", 'Excluir', ['class' => 'btn btn-danger btn-sm', 'onclick' => 'return confirma()']); ?>
+                      <?php echo anchor("participante/editar/{$participante['participante_id']}", 'Editar', ['class' => 'btn btn-info btn-sm']); ?>
+                      <?php echo anchor("participante/excluir/{$participante['participante_id']}", 'Excluir', ['class' => 'btn btn-danger btn-sm', 'onclick' => 'return confirma()']); ?>
                     </td>
-                  
+
                   </tr>
 
                 <?php endforeach; ?>
@@ -65,10 +71,13 @@
               </tbody>
               <tfoot>
                 <tr>
+                  <th>ID</th>
+                  <th>Grupo</th>
                   <th>Nome</th>
                   <th>CPF</th>
-                  <th>Data</th>
+                  <th>Data Nasc.</th>
                   <th>Telefone</th>
+                  <th>Frequência</th>
                   <th>Ações</th>
 
                 </tr>
@@ -89,11 +98,10 @@
 
 
 <script>
-  function confirma(){
-    if(!confirm("Deseja excluir o registro?")){
+  function confirma() {
+    if (!confirm("Deseja excluir o registro?")) {
       return false;
-    }
-    else{
+    } else {
       return true;
     }
   }
