@@ -38,7 +38,7 @@
 
                     <!-- form start -->
                     <?php
-                    helper('form');
+
                     echo form_open('agendamento/salvar');
                     ?>
                     <div class="card-body">
@@ -49,8 +49,9 @@
                         <div class="row">
                             <div class="form-group col-sm-6">
                                 <label for="agendamento_tipo">Tipo</label>
-                                <input type="text" class="form-control" name="agendamento_tipo" id="agendamento_tipo" placeholder="Digite o tipo" autofocus value="<?php echo !empty($agendamento['agendamento_tipo']) ? $agendamento['agendamento_tipo'] : set_value('agendamento_tipo') ?>">
+                                <?php echo form_dropdown('agendamento_tipo', ['' => 'Selecione...', 'Visita' => 'Visita', 'Atendimento' => 'Atendimento'], !empty($agendamento['agendamento_tipo']) ? $agendamento['agendamento_tipo'] : set_value('agendamento_tipo'), ['class' => 'form-control', 'id' => 'agendamento_tipo', 'name' => 'agendamento_tipo']) ?>
 
+                                
                                 <?php if (!empty($errors['agendamento_tipo'])) : ?>
                                     <div class="alert alert-danger mt-2"> <?php echo $errors['agendamento_tipo'] ?> </div>
                                 <?php endif; ?>
@@ -92,7 +93,7 @@
                         <div class="row">
                             <div class="form-group col-sm-6">
                                 <label for="agendamento_status">Status</label>
-                                <input type="text" class="form-control" name="agendamento_status" id="agendamento_status" placeholder="Digite o status" value="<?php echo !empty($agendamento['agendamento_status']) ? $agendamento['agendamento_status'] : set_value('agendamento_status') ?>">
+                                <?php echo form_dropdown('agendamento_status', ['Nova Solicitação' => 'Nova Solicitação', 'Confirmada' => 'Confirmada', 'Cancelada' => 'Cancelada'], !empty($agendamento['agendamento_status']) ? $agendamento['agendamento_status'] : set_value('agendamento_status'), ['class' => 'form-control', 'id' => 'agendamento_status', 'name' => 'agendamento_status']) ?>
 
                                 <?php if (!empty($errors['agendamento_status'])) : ?>
                                     <div class="alert alert-danger mt-2"> <?php echo $errors['agendamento_status'] ?> </div>

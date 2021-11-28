@@ -62,6 +62,16 @@ class ParticipanteModel extends BaseModel
 	],
 ];
 
+
+public function getAllWithGrupos(){
+	$this->select(
+		"*"
+	);
+	$this->join('grupos', 'grupos.grupo_id = participantes.grupo_id');
+	return $this->findAll();
+}
+
+
 }
 
 ?>

@@ -38,7 +38,7 @@
 
                     <!-- form start -->
                     <?php
-                    helper('form');
+
                     echo form_open('psicologo/salvar');
                     ?>
                     <div class="card-body">

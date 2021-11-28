@@ -96,6 +96,17 @@ class AgendamentoModel extends BaseModel
 
 	];
 
+
+	public function getAllWithPsicologoseAssistentes(){
+		$this->select(
+			"*"
+		);
+		$this->join('psicologos', 'psicologos.psicologo_id = agendamentos.psicologo_id');
+		$this->join('assistentes', 'assistentes.assistente_id = agendamentos.assistente_id');
+		return $this->findAll();
+	}
+	
+
 }
 
 ?>
