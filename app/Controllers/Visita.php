@@ -4,19 +4,28 @@ namespace App\Controllers;
 
 use App\Models\VisitaModel;
 use App\Controllers\BaseController;
+use App\Models\AssistenteModel;
+use App\Models\FamiliaModel;
+use App\Models\PsicologoModel;
 
 class Visita extends BaseController
 {
     protected $visitaModel;
+    protected $psicologoModel;
+    protected $assistenteModel;
+    protected $familiaModel;
 
     public function __construct()
     {
         $this->visitaModel = new VisitaModel();
+        $this->psicologoModel = new PsicologoModel();
+        $this->assistenteModel = new AssistenteModel();
+        $this->familiaModel = new FamiliaModel();
     }
 
     public function index()
     {
-        $visitas = $this->visitaModel->findAll();
+        $visitas = $this->visitaModel->getAllWithPsicologoseAssistenteseFamilias();
 
 
         //  para testar dados vindo do bd
@@ -32,12 +41,24 @@ class Visita extends BaseController
     public function incluir()
     {
         $dados = [
-            'titulo' => 'Novo Visita'
+            'titulo' => 'Novo Visita',
+            'psicologosDropDown' => $this->psicologoModel->formDropDown([
+                'opcaoNova' => false
+            ]
+            ),
+            'assistentesDropDown' => $this->assistenteModel->formDropDown([
+                'opcaoNova' => false
+            ]
+            ),
+            'familiasDropDown' => $this->familiaModel->formDropDown([
+                'opcaoNova' => false
+            ]
+            )
         ];
         echo view('visitas/form', $dados);
     }
 
-    // salva os dados vindos do formulario
+    // salva os dados vindos do formulario 
     public function salvar()
     {
         $post = $this->request->getPost();
@@ -64,6 +85,18 @@ class Visita extends BaseController
         $visita = $this->visitaModel->getById($id);
         $dados = [
             'titulo' => 'Editar Visita',
+            'psicologosDropDown' => $this->psicologoModel->formDropDown([
+                'opcaoNova' => false
+            ]
+            ),
+            'assistentesDropDown' => $this->assistenteModel->formDropDown([
+                'opcaoNova' => false
+            ]
+            ),
+            'familiasDropDown' => $this->familiaModel->formDropDown([
+                'opcaoNova' => false
+            ]
+            ),
             'visita' => $visita
         ];
 

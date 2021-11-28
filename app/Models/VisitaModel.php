@@ -46,6 +46,20 @@ class VisitaModel extends BaseModel
 
 	];
 
+
+
+	public function getAllWithPsicologoseAssistenteseFamilias(){
+		$this->select(
+			"*"
+		);
+		$this->join('psicologos', 'psicologos.psicologo_id = visitas.psicologo_id');
+		$this->join('assistentes', 'assistentes.assistente_id = visitas.assistente_id');
+		$this->join('familias', 'familias.familia_id = visitas.familia_id');
+		return $this->findAll();
+	}
+
+
+
 }
 
 ?>

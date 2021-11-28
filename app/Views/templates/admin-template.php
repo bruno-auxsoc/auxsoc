@@ -256,7 +256,7 @@ $ativo = $pagina[1];
 
             <li class="nav-item">
               <a href="<?php echo base_url(); ?>/programa" class="nav-link <?php if ($ativo == "Programa") {
-                                                                              echo "text-info";
+                                                                              echo "active";
                                                                             } else {
                                                                               echo "";
                                                                             } ?>">
@@ -266,7 +266,7 @@ $ativo = $pagina[1];
             </li>
             <li class="nav-item">
               <a href="<?php echo base_url(); ?>/projeto" class="nav-link <?php if ($ativo == "Projeto") {
-                                                                            echo "text-info";
+                                                                            echo "active";
                                                                           } else {
                                                                             echo "";
                                                                           } ?>">
@@ -276,7 +276,7 @@ $ativo = $pagina[1];
             </li>
             <li class="nav-item">
               <a href="<?php echo base_url(); ?>/grupo" class="nav-link <?php if ($ativo == "Grupo") {
-                                                                          echo "text-info";
+                                                                          echo "active";
                                                                         } else {
                                                                           echo "";
                                                                         } ?>">
@@ -286,7 +286,7 @@ $ativo = $pagina[1];
             </li>
             <li class="nav-item">
               <a href="<?php echo base_url(); ?>/participante" class="nav-link <?php if ($ativo == "Participante") {
-                                                                                  echo "text-info";
+                                                                                  echo "active";
                                                                                 } else {
                                                                                   echo "";
                                                                                 } ?>">
@@ -296,7 +296,7 @@ $ativo = $pagina[1];
             </li>
             <li class="nav-item">
               <a href="<?php echo base_url(); ?>/encontro" class="nav-link <?php if ($ativo == "Encontro") {
-                                                                              echo "text-info";
+                                                                              echo "active";
                                                                             } else {
                                                                               echo "";
                                                                             } ?>">

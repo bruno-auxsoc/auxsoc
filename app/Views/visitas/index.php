@@ -36,8 +36,8 @@
               <thead>
                 <tr>
                   <th>ID</th>
-                  <th>Assistente</th>
                   <th>Psicólogo</th>
+                  <th>Assistente</th>
                   <th>Família</th>
                   <th>Data</th>
                   <th>Hora</th>
@@ -51,13 +51,13 @@
                 <?php foreach ($visitas as $visita) : ?>  
                   <tr>
                     <td class="col-md-1"><?php echo $visita['visita_id']; ?></td>
-                    <td class="col-md-1"><?php echo $visita['assistente_id']; ?></td>
-                    <td class="col-md-1"><?php echo $visita['psicologo_id']; ?></td>
-                    <td class="col-md-1"><?php echo $visita['familia_id']; ?></td>
+                    <td class="col-md-1"><?php echo $visita['psicologo_nome']; ?></td>
+                    <td class="col-md-1"><?php echo $visita['assistente_nome']; ?></td>
+                    <td class="col-md-2"><?php echo $visita['familia_responsavel'] . " - " . $visita['familia_bairro']; ?></td>
                     <td class="col-md-1"><?php echo date_format(date_create($visita['visita_data']),"d/m/Y"); ?></td>
                     <td class="col-md-1"><?php echo substr($visita['visita_hora'], 0, 5); ?></td>
-                    <td class="col-md-2"><?php echo $visita['visita_desc']; ?></td>
-                    <td class="text-center col-md-1">
+                    <td class="col-md-3"><?php echo $visita['visita_desc']; ?></td>
+                    <td class="text-center col-md-2">
                       <?php  echo anchor("visita/editar/{$visita['visita_id']}", 'Editar', ['class' => 'btn btn-info btn-sm']); ?>
                       <?php  echo anchor("visita/excluir/{$visita['visita_id']}", 'Excluir', ['class' => 'btn btn-danger btn-sm', 'onclick' => 'return confirma()']); ?>
                     </td>
@@ -71,8 +71,8 @@
               <tfoot>
                 <tr>
                   <th>ID</th>
-                  <th>Assistente</th>
                   <th>Psicólogo</th>
+                  <th>Assistente</th>
                   <th>Família</th>
                   <th>Data</th>
                   <th>Hora</th>
