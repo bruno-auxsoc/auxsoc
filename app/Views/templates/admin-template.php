@@ -79,11 +79,11 @@ $ativo = $pagina[1];
           <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-          <a href="index3.html" class="nav-link">Home</a>
+          <a href="<?php echo base_url(); ?>/dashboard" class="nav-link">Dashboard</a>
         </li>
-        <li class="nav-item d-none d-sm-inline-block">
+        <!-- <li class="nav-item d-none d-sm-inline-block">
           <a href="#" class="nav-link">Contato</a>
-        </li>
+        </li> -->
       </ul>
 
       <!-- Right navbar links -->
@@ -157,7 +157,7 @@ $ativo = $pagina[1];
                 <i class="nav-icon fa fa-users"></i>
 
                 <p>
-                  Familias
+                  Famílias
                 </p>
               </a>
             </li>
@@ -329,7 +329,7 @@ $ativo = $pagina[1];
       <strong>Copyright &copy; 2021 <a href="https://auxsoc.com.br">AuxSoc - Sistema para gestão de Assistência Social</a>.</strong>
       Todos os direitos reservados.
       <div class="float-right d-none d-sm-inline-block">
-        <b>Versão</b> 21.11.26
+        <b>Versão</b> 21.11.28
       </div>
     </footer>
 
@@ -440,8 +440,7 @@ $ativo = $pagina[1];
   <!-- AdminLTE App -->
   <script src="<?php echo base_url(); ?>/adminlte/js/adminlte.js"></script>
 
-  <!-- Adminstrador Menu -->
-  <script src="adminlte/js/adm.js"></script>
+
 
 
   <!-- Select2 -->
