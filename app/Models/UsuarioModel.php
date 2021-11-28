@@ -2,11 +2,11 @@
 
 namespace App\Models;
 
-class PsicologoModel extends BaseModel
+class UsuarioModel extends BaseModel
 {
 
-	protected $table = 'psicologos';
-	protected $primaryKey = 'psicologo_id';
+	protected $table = 'usuarios';
+	protected $primaryKey = 'usuario_id';
 
 	protected $useSoftDeletes = true;
 
@@ -17,13 +17,13 @@ class PsicologoModel extends BaseModel
 	protected $useTimestamps = true;
 
 	protected $allowedFields = [
-		'psicologo_id',
-		'psicologo_nome',
-		'psicologo_crp'
+		'usuario_id',
+		'usuario_nome',
+		'usuario_email'
 	];
 
 	protected $validationRules = [
-		'psicologo_nome' => [
+		'usuario_nome' => [
 			'label' => 'Nome',
 			'rules' => 'required',
 			'errors' => [
@@ -31,7 +31,7 @@ class PsicologoModel extends BaseModel
 			]
 
 		],
-		'psicologo_crp' => [
+		'usuario_crp' => [
 			'label' => 'CRP',
 			'rules' => 'required',
 			'errors' => [
@@ -44,36 +44,36 @@ class PsicologoModel extends BaseModel
 
 	public function formDropDown(array $params = null, array $order = null)
 	{
-		$this->select('psicologo_id, psicologo_nome');
+		$this->select('usuario_id, usuario_nome');
 
-		if (!is_null($params) && isset($params['psicologo_id'])){
-			$this->where(['psicologo_id' => $params['psicologo_id']]);
+		if (!is_null($params) && isset($params['usuario_id'])){
+			$this->where(['usuario_id' => $params['usuario_id']]);
 
 		}
 
-		$psicologosArray = $this->findAll();
+		$usuariosArray = $this->findAll();
 
-		$optionsPsicologos = array_column($psicologosArray, 'psicologo_nome', 'psicologo_id');
+		$optionsUsuarios = array_column($usuariosArray, 'usuario_nome', 'usuario_id');
 
 		$optionsSelecione = [
 			'' => 'Selecione...'
 		];
 
-		$selectConteudo = $optionsSelecione + $optionsPsicologos;
+		$selectConteudo = $optionsSelecione + $optionsUsuarios;
 
-		$novoPsicologo = [];
+		$novoUsuario = [];
 
 		if(!is_null($params) && isset($params['opcaoNova'])){
 			if((bool)$params['opcaoNova'] === true){
-				$novoPsicologo = [
+				$novoUsuario = [
 					'---' => [
-						'n' => 'Novo Psicologo...'
+						'n' => 'Novo Usuario...'
 					]
 					];
 			}
 		}
 
-		$result = $selectConteudo + $novoPsicologo;
+		$result = $selectConteudo + $novoUsuario;
 
 		return $result;
 	}

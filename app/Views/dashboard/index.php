@@ -30,14 +30,14 @@
         <!-- small box -->
         <div class="small-box bg-info">
           <div class="inner">
-            <h3>150</h3>
+            <h3><?php echo count($familias); ?></h3>
 
             <p>Famílias</p>
           </div>
           <div class="icon">
             <i class="ion ion-person-stalker"></i>
           </div>
-          <a href="#" class="small-box-footer">Ver mais <i class="fas fa-arrow-circle-right"></i></a>
+          <a href="<?php echo base_url(); ?>/familia" class="small-box-footer">Ver mais <i class="fas fa-arrow-circle-right"></i></a>
         </div>
       </div>
       <!-- ./col -->
@@ -75,14 +75,14 @@
         <!-- small box -->
         <div class="small-box bg-danger">
           <div class="inner">
-            <h3>65</h3>
+            <h3><?php echo count($agendamentos); ?></h3>
 
             <p>Agendamentos</p>
           </div>
           <div class="icon">
             <i class="ion ion-calendar"></i>
           </div>
-          <a href="#" class="small-box-footer">Ver mais <i class="fas fa-arrow-circle-right"></i></a>
+          <a href="<?php echo base_url(); ?>/agendamento" class="small-box-footer">Ver mais <i class="fas fa-arrow-circle-right"></i></a>
         </div>
       </div>
       <!-- ./col -->

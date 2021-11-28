@@ -4,14 +4,21 @@ namespace App\Controllers;
 
 use App\Models\AgendamentoModel;
 use App\Controllers\BaseController;
+use App\Models\PsicologoModel;
+use App\Models\AssistenteModel;
 
 class Agendamento extends BaseController
 {
     protected $agendamentoModel;
+    protected $psicologoModel;
+    protected $assistenteModel;
 
     public function __construct()
     {
         $this->agendamentoModel = new AgendamentoModel();
+        $this->psicologoModel = new PsicologoModel();
+        $this->assistenteModel = new AssistenteModel();
+
     }
 
     public function index()
@@ -32,7 +39,17 @@ class Agendamento extends BaseController
     public function incluir()
     {
         $dados = [
-            'titulo' => 'Novo Agendamento'
+            'titulo' => 'Novo Agendamento',
+            'psicologosDropDown' => $this->psicologoModel->formDropDown([
+                'opcaoNova' => true
+            ]
+            ),
+            'assistentesDropDown' => $this->assistenteModel->formDropDown([
+                'opcaoNova' => true
+            ]
+            )
+            
+            
         ];
         echo view('agendamentos/form', $dados);
     }
@@ -53,7 +70,11 @@ class Agendamento extends BaseController
         } else {
             $dados = [
                 'titulo' => !empty($post['agendamento_id']) ? 'Editar Agendamento' : 'Novo Agendamento',
-                'errors' => $this->agendamentoModel->errors()
+                'errors' => $this->agendamentoModel->errors(),
+                'formDropDown' => $this->psicologoModel->formDropDown([
+                    'opcaoNova' => true
+                ]
+                )
             ];
             echo view('agendamentos/form', $dados);
         }
@@ -65,12 +86,36 @@ class Agendamento extends BaseController
     public function editar($id)
     {
         $agendamento = $this->agendamentoModel->getById($id);
-        $dados = [
-            'titulo' => 'Editar Agendamento',
-            'agendamento' => $agendamento
-        ];
+        if(!is_null($agendamento)){
 
-        echo view('agendamentos/form', $dados);
+            $dados = [
+                'titulo' => 'Editar Agendamento',
+                'psicologosDropDown' => $this->psicologoModel->formDropDown([
+                    'opcaoNova' => true
+                ]
+                ),
+                'assistentesDropDown' => $this->assistenteModel->formDropDown([
+                    'opcaoNova' => true
+                ]
+                ),
+                'agendamento' => $agendamento
+            ];
+    
+            echo view('agendamentos/form', $dados);
+
+        }
+
+        else { 
+            return redirect()->to('mensagem/erro')->with('mensagem', [
+                'mensagem' => "Agendamento não encontrado",
+                'link' => [
+                    'to' => 'agendamento',
+                    'texto' => 'Voltar para Agendamentos'
+                ]
+            ]);
+        
+    }
+        
     }
 
 
@@ -86,7 +131,7 @@ class Agendamento extends BaseController
                     'texto' => 'Voltar para Agendamentos'
                 ]
             ]);
-        } else { {
+        } else { 
                 return redirect()->to('mensagem/erro')->with('mensagem', [
                     'mensagem' => "Erro ao excluir o Agendamento",
                     'link' => [
@@ -94,7 +139,7 @@ class Agendamento extends BaseController
                         'texto' => 'Voltar para Agendamentos'
                     ]
                 ]);
-            }
+            
         }
     }
 }
