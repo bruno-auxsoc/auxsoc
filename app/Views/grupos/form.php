@@ -38,7 +38,7 @@
 
                     <!-- form start -->
                     <?php
-                    helper('form');
+
                     echo form_open('grupo/salvar');
                     ?>
                     <div class="card-body">
@@ -48,7 +48,7 @@
 
                         <div class="form-group col-sm-6">
                             <label for="grupo_nome">Nome</label>
-                            <input type="text" class="form-control" name="grupo_nome" id="grupo_nome" placeholder="Digite o nome" autofocus value="<?php echo !empty(grupo['grupo_nome']) ? $grupo['grupo_nome'] : set_value('grupo_nome') ?>" >
+                            <input type="text" class="form-control" name="grupo_nome" id="grupo_nome" placeholder="Digite o nome" autofocus value="<?php echo !empty($grupo['grupo_nome']) ? $grupo['grupo_nome'] : set_value('grupo_nome') ?>" >
 
                             <?php if (!empty($errors['grupo_nome'])) : ?>
                                 <div class="alert alert-danger mt-2"> <?php echo $errors['grupo_nome'] ?> </div>
@@ -56,7 +56,7 @@
                         </div>
                         <div class="form-group col-sm-6">
                             <label for="grupo_periodo">Período</label>
-                            <input type="text" class="form-control" name="grupo_periodo" id="grupo_periodo" placeholder="Digite o Período" value="<?php echo !empty($grupo['grupo_periodo'] : set_value('grupo_periodo') ?>" >
+                            <input type="text" class="form-control" name="grupo_periodo" id="grupo_periodo" placeholder="Digite o Período" value="<?php echo !empty($grupo['grupo_periodo']) ? $grupo['grupo_periodo'] : set_value('grupo_periodo') ?>" >
                             
                             <?php if (!empty($errors['grupo_periodo'])) : ?>
                                 <div class="alert alert-danger mt-2"> <?php echo $errors['grupo_periodo'] ?> </div>
@@ -64,7 +64,7 @@
                         </div>
                         <div class="form-group col-sm-6">
                             <label for="grupo_oficineiro">Oficineiro</label>
-                            <input type="text" class="form-control" name="grupo_oficineiro" id="grupo_oficineiro" placeholder="Digite o Oficineiro" value="<?php echo !empty($grupo['grupo_oficineiro'] : set_value('grupo_oficineiro') ?>" >
+                            <input type="text" class="form-control" name="grupo_oficineiro" id="grupo_oficineiro" placeholder="Digite o Oficineiro" value="<?php echo !empty($grupo['grupo_oficineiro']) ? $grupo['grupo_oficineiro'] : set_value('grupo_oficineiro') ?>" >
                             
                             <?php if (!empty($errors['grupo_oficineiro'])) : ?>
                                 <div class="alert alert-danger mt-2"> <?php echo $errors['grupo_oficineiro'] ?> </div>
