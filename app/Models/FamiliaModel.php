@@ -83,41 +83,41 @@ class FamiliaModel extends BaseModel
 
 	];
 
-	// public function formDropDown(array $params = null, array $order = null)
-	// {
-	// 	$this->select('familia_id, familia_nome');
+	public function formDropDown(array $params = null, array $order = null)
+	{
+		$this->select('familia_id, familia_responsavel');
 
-	// 	if (!is_null($params) && isset($params['familia_id'])){
-	// 		$this->where(['familia_id' => $params['familia_id']]);
+		if (!is_null($params) && isset($params['familia_id'])){
+			$this->where(['familia_id' => $params['familia_id']]);
 
-	// 	}
+		}
 
-	// 	$familiasArray = $this->findAll();
+		$familiasArray = $this->findAll();
 
-	// 	$optionsFamilias = array_column($familiasArray, 'familia_nome', 'familia_id');
+		$optionsFamilias = array_column($familiasArray, 'familia_responsavel', 'familia_id');
 
-	// 	$optionsSelecione = [
-	// 		'' => 'Selecione...'
-	// 	];
+		$optionsSelecione = [
+			'' => 'Selecione...'
+		];
 
-	// 	$selectConteudo = $optionsSelecione + $optionsFamilias;
+		$selectConteudo = $optionsSelecione + $optionsFamilias;
 
-	// 	$novoFamilia = [];
+		$novaFamilia = [];
 
-	// 	if(!is_null($params) && isset($params['opcaoNova'])){
-	// 		if((bool)$params['opcaoNova'] === true){
-	// 			$novoFamilia = [
-	// 				'---' => [
-	// 					'n' => 'Novo Familia...'
-	// 				]
-	// 				];
-	// 		}
-	// 	}
+		if(!is_null($params) && isset($params['opcaoNova'])){
+			if((bool)$params['opcaoNova'] === true){
+				$novaFamilia = [
+					'---' => [
+						'n' => 'Nova Familia...'
+					]
+					];
+			}
+		}
 
-	// 	$result = $selectConteudo + $novoFamilia;
+		$result = $selectConteudo + $novaFamilia;
 
-	// 	return $result;
-	// }
+		return $result;
+	}
 
 
 }
