@@ -5,7 +5,7 @@ namespace App\Controllers;
 use App\Models\MembroModel;
 use App\Controllers\BaseController;
 
-class Psicologo extends BaseController
+class Membro extends BaseController
 {
     protected $mebroModel;
 

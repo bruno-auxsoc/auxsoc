@@ -12,7 +12,7 @@
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
                     <li class="breadcrumb-item"><a href="<?php echo base_url(); ?>/dashboard">Home</a></li>
-                    <li class="breadcrumb-item"><a href="<?php echo base_url(); ?>/psicologo">Membros</a></li>
+                    <li class="breadcrumb-item"><a href="<?php echo base_url(); ?>/membro">Membros</a></li>
                     <li class="breadcrumb-item active"><?php echo $titulo; ?></li>
                 </ol>
             </div>
