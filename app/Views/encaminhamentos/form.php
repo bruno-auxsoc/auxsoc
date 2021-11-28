@@ -49,7 +49,7 @@
                         <div class="row">
                             <div class="form-group col-sm-6">
                                 <label for="encaminhamento_tipo">Tipo</label>
-                                <input type="text" class="form-control" name="encaminhamento_tipo" id="encaminhamento_tipo" placeholder="Digite a tiporição" value="<?php echo !empty($encaminhamento['encaminhamento_tipo']) ? $encaminhamento['encaminhamento_tipo'] : set_value('encaminhamento_tipo') ?>">
+                                <input type="text" class="form-control" name="encaminhamento_tipo" id="encaminhamento_tipo" placeholder="Digite o tipo" value="<?php echo !empty($encaminhamento['encaminhamento_tipo']) ? $encaminhamento['encaminhamento_tipo'] : set_value('encaminhamento_tipo') ?>">
 
                                 <?php if (!empty($errors['encaminhamento_tipo'])) : ?>
                                     <div class="alert alert-danger mt-2"> <?php echo $errors['encaminhamento_tipo'] ?> </div>
