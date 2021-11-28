@@ -34,6 +34,14 @@ class EncaminhamentoModel extends BaseModel
 		]
 	];
 
+	public function getAllWithAtendimentos(){
+		$this->select(
+			"*"
+		);
+		$this->join('atendimentos', 'atendimentos.atendimento_id = encaminhamentos.atendimento_id');
+		return $this->findAll();
+	}
+
 }
 
 ?>
