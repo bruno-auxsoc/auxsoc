@@ -38,6 +38,7 @@
                   <th>ID</th>
                   <th>Assistente</th>
                   <th>Psicólogo</th>
+                  <th>Família</th>
                   <th>Data</th>
                   <th>Hora</th>
                   <th>Descrição</th>
@@ -71,6 +72,7 @@
                   <th>ID</th>
                   <th>Assistente</th>
                   <th>Psicólogo</th>
+                  <th>Família</th>
                   <th>Data</th>
                   <th>Hora</th>
                   <th>Descrição</th>

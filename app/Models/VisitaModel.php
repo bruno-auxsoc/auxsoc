@@ -20,13 +20,14 @@ class VisitaModel extends BaseModel
 		'visita_id',
 		'assistente_id',
 		'psicologo_id',
+		'familia_id',
 		'visita_data',
 		'visita_hora',
 		'visita_desc'
 	];
 
 	protected $validationRules = [
-		'visita_data' => [
+		'familia_id' => [
 			'label' => '',
 			'rules' => 'required',
 			'errors' => [
@@ -34,7 +35,7 @@ class VisitaModel extends BaseModel
 			]
 
 		],
-		'visita_hora' => [
+		'visita_data' => [
 			'label' => '',
 			'rules' => 'required',
 			'errors' => [
