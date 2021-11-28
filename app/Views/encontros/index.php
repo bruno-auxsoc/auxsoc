@@ -6,12 +6,12 @@
   <div class="container-fluid">
     <div class="row mb-2">
       <div class="col-sm-6">
-        <h1>Grupos</h1>
+        <h1>Encontros</h1>
       </div>
       <div class="col-sm-6">
         <ol class="breadcrumb float-sm-right">
-          <li class="breadcrumb-item"><a href="<?php echo base_url(); ?>/dashboard">Home</a></li>
-          <li class="breadcrumb-item active">Grupos</li>
+          <li class="breadcrumb-item"><a href="<?php echo base_url();?>/dashboard">Home</a></li>
+          <li class="breadcrumb-item active">Encontros</li>
         </ol>
       </div>
     </div>
@@ -27,35 +27,33 @@
 
         <div class="card">
           <div class="card-header">
-            <h3 class="card-title">Cadastro de Grupos - <?php echo count($grupos); ?> registro(s) encontrados</h3>
-            <a href="./grupo/incluir" class="float-right btn btn-primary btn-sm">Novo Grupo</a>
+            <h3 class="card-title">Cadastro de Encontros - <?php echo count($encontros); ?> registro(s) encontrados</h3>
+            <a href="./encontro/incluir" class="float-right btn btn-primary btn-sm">Novo Encontro</a>
           </div>
           <!-- /.card-header -->
           <div class="card-body table-responsive">
             <table id="example1" class="table table-bordered table-striped">
               <thead>
                 <tr>
-                  <th>ID</th>
-                  <th>Nome</th>
-                  <th>Período</th>
-                  <th>Oficineiro</th>
+                  <th>Participante</th>
+                  <th>Grupo</th>
+                  <th>Data</th>
                   <th>Ações</th>
 
                 </tr>
               </thead>
               <tbody>
 
-                <?php foreach ($grupos as $grupo) : ?>
+                <?php foreach ($encontros as $encontro) : ?>  
                   <tr>
-                    <td class="col-md-1"><?php echo $grupo['grupo_id']; ?></td>
-                    <td class="col-md-3"><?php echo $grupo['grupo_nome']; ?></td>
-                    <td class="col-md-3"><?php echo $grupo['grupo_periodo']; ?></td>
-                    <td class="col-md-3"><?php echo $grupo['grupo_oficineiro']; ?></td>
+                    <td class="col-md-1"><?php echo $encontro['participante_id']; ?></td>
+                    <td class="col-md-6"><?php echo $encontro['grupo_id']; ?></td>
+                    <td class="col-md-3"><?php echo $encontro['encontro_data']; ?></td>
                     <td class="text-center col-md-2">
-                      <?php echo anchor("grupo/editar/{$grupo['grupo_id']}", 'Editar', ['class' => 'btn btn-info btn-sm']); ?>
-                      <?php echo anchor("grupo/excluir/{$grupo['grupo_id']}", 'Excluir', ['class' => 'btn btn-danger btn-sm', 'onclick' => 'return confirma()']); ?>
+                      <?php  echo anchor("encontro/editar/{$encontro['encontro_id']}", 'Editar', ['class' => 'btn btn-info btn-sm']); ?>
+                      <?php  echo anchor("encontro/excluir/{$encontro['encontro_id']}", 'Excluir', ['class' => 'btn btn-danger btn-sm', 'onclick' => 'return confirma()']); ?>
                     </td>
-
+                    
                   </tr>
 
                 <?php endforeach; ?>
@@ -64,10 +62,9 @@
               </tbody>
               <tfoot>
                 <tr>
-                  <th>ID</th>
-                  <th>Nome</th>
-                  <th>Período</th>
-                  <th>Oficineiro</th>
+                  <th>Participante</th>
+                  <th>Grupo</th>
+                  <th>Data</th>
                   <th>Ações</th>
 
                 </tr>
@@ -88,10 +85,11 @@
 
 
 <script>
-  function confirma() {
-    if (!confirm("Deseja excluir o registro?")) {
+  function confirma(){
+    if(!confirm("Deseja excluir o registro?")){
       return false;
-    } else {
+    }
+    else{
       return true;
     }
   }

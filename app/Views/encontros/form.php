@@ -7,12 +7,12 @@
     <div class="container-fluid">
         <div class="row mb-2">
             <div class="col-sm-6">
-                <h1>Grupos</h1>
+                <h1>Encontros</h1>
             </div>
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
                     <li class="breadcrumb-item"><a href="<?php echo base_url(); ?>/dashboard">Home</a></li>
-                    <li class="breadcrumb-item"><a href="<?php echo base_url(); ?>/grupo">Grupos</a></li>
+                    <li class="breadcrumb-item"><a href="<?php echo base_url(); ?>/encontro">Encontros</a></li>
                     <li class="breadcrumb-item active"><?php echo $titulo; ?></li>
                 </ol>
             </div>
@@ -39,35 +39,34 @@
                     <!-- form start -->
                     <?php
 
-                    echo form_open('grupo/salvar');
+                    echo form_open('encontro/salvar');
                     ?>
                     <div class="card-body">
                         <div class="form-group col-sm-6">
-                            <input type="hidden" class="form-control" name="grupo_id" id="grupo_id" placeholder="" value="<?php echo !empty($grupo['grupo_id']) ? $grupo['grupo_id'] : set_value('grupo_id') ?>">
+                            <input type="hidden" class="form-control" name="encontro_id" id="encontro_id" placeholder="" value="<?php echo !empty($encontro['encontro_id']) ? $encontro['encontro_id'] : set_value('encontro_id') ?>">
                         </div>
 
                         <div class="form-group col-sm-6">
-                            <label for="grupo_nome">Nome</label>
-                            <input type="text" class="form-control" name="grupo_nome" id="grupo_nome" placeholder="Digite o nome" autofocus value="<?php echo !empty($grupo['grupo_nome']) ? $grupo['grupo_nome'] : set_value('grupo_nome') ?>" >
+                            <label for="participante_id">Participante</label>
+                            <input type="text" class="form-control" name="participante_id" id="participante_id" placeholder="Digite o nome" autofocus value="<?php echo !empty($participante['participante_id']) ? $participante['participante_id'] : set_value('participante_id') ?>" >
 
-                            <?php if (!empty($errors['grupo_nome'])) : ?>
-                                <div class="alert alert-danger mt-2"> <?php echo $errors['grupo_nome'] ?> </div>
+                            <?php if (!empty($errors['participante_id'])) : ?>
+                                <div class="alert alert-danger mt-2"> <?php echo $errors['participante_id'] ?> </div>
                             <?php endif; ?>
                         </div>
                         <div class="form-group col-sm-6">
-                            <label for="grupo_periodo">Período</label>
-                            <input type="text" class="form-control" name="grupo_periodo" id="grupo_periodo" placeholder="Digite o Período" value="<?php echo !empty($grupo['grupo_periodo']) ? $grupo['grupo_periodo'] : set_value('grupo_periodo') ?>" >
+                            <label for="grupo_id">Grupo</label>
+                            <input type="text" class="form-control" name="grupo_id" id="grupo_id" placeholder="Digite o Grupo" value="<?php echo !empty($grupo['grupo_id']) ? $grupo['grupo_id'] : set_value('grupo_id') ?>" >
                             
-                            <?php if (!empty($errors['grupo_periodo'])) : ?>
-                                <div class="alert alert-danger mt-2"> <?php echo $errors['grupo_periodo'] ?> </div>
+                            <?php if (!empty($errors['grupo_id'])) : ?>
+                                <div class="alert alert-danger mt-2"> <?php echo $errors['grupo_id'] ?> </div>
                             <?php endif; ?>
                         </div>
                         <div class="form-group col-sm-6">
-                            <label for="grupo_oficineiro">Oficineiro</label>
-                            <input type="text" class="form-control" name="grupo_oficineiro" id="grupo_oficineiro" placeholder="Digite o Oficineiro" value="<?php echo !empty($grupo['grupo_oficineiro']) ? $grupo['grupo_oficineiro'] : set_value('grupo_oficineiro') ?>" >
-                            
-                            <?php if (!empty($errors['grupo_oficineiro'])) : ?>
-                                <div class="alert alert-danger mt-2"> <?php echo $errors['grupo_oficineiro'] ?> </div>
+                            <label for="encontro_data">Data</label>
+                            <input type="text" class="form-control" name="encontro_data" id="encontro_data" placeholder="Digite a data" autofocus value="<?php echo !empty($participante['encontro_data']) ? $participante['participante_id'] : set_value('participante_id') ?>" >
+                            <?php if (!empty($errors['encontro_nome'])) : ?>
+                                <div class="alert alert-danger mt-2"> <?php echo $errors['encontro_nome'] ?> </div>
                             <?php endif; ?>
                         </div>
 
