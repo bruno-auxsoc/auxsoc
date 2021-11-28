@@ -69,6 +69,42 @@ class MembroModel extends BaseModel
 		]
 	];
 
+	public function formDropDown(array $params = null, array $order = null)
+	{
+		$this->select('membro_id, membro_nome');
+
+		if (!is_null($params) && isset($params['membro_id'])){
+			$this->where(['membro_id' => $params['membro_id']]);
+
+		}
+
+		$membrosArray = $this->findAll();
+
+		$optionsMembros = array_column($membrosArray, 'membro_nome', 'membro_id');
+
+		$optionsSelecione = [
+			'' => 'Selecione...'
+		];
+
+		$selectConteudo = $optionsSelecione + $optionsMembros;
+
+		$novoMembro = [];
+
+		if(!is_null($params) && isset($params['opcaoNova'])){
+			if((bool)$params['opcaoNova'] === true){
+				$novoMembro = [
+					'---' => [
+						'n' => 'Novo Membro...'
+					]
+					];
+			}
+		}
+
+		$result = $selectConteudo + $novoMembro;
+
+		return $result;
+	}
+
 }
 
 ?>

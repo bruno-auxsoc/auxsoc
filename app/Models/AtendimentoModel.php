@@ -46,6 +46,18 @@ class AtendimentoModel extends BaseModel
 
 	];
 
+
+	public function getAllWithPsicologoseAssistenteseMembros(){
+		$this->select(
+			"*"
+		);
+		$this->join('psicologos', 'psicologos.psicologo_id = atendimentos.psicologo_id');
+		$this->join('assistentes', 'assistentes.assistente_id = atendimentos.assistente_id');
+		$this->join('membros', 'membros.membro_id = atendimentos.membro_id');
+		return $this->findAll();
+	}
+
+
 }
 
 ?>

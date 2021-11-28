@@ -47,45 +47,34 @@
 
                         <div class="row">
                             <div class="form-group col-sm-6">
-                                <label for="assistente_id">Assistente</label>
-                                <input type="text" class="form-control" name="assistente_id" id="assistente_id" placeholder="Selecione o assistente" value="<?php echo !empty($atendimento['assistente_id']) ? $atendimento['assistente_id'] : set_value('assistente_id') ?>">
-
-                                <?php if (!empty($errors['assistente_id'])) : ?>
-                                    <div class="alert alert-danger mt-2"> <?php echo $errors['assistente_id'] ?> </div>
-                                <?php endif; ?>
-                            </div>
-
-                            <div class="form-group col-sm-6">
                                 <label for="psicologo_id">Psicólogo</label>
-                                <input type="text" class="form-control" name="psicologo_id" id="psicologo_id" placeholder="Selecione o psicólogo" value="<?php echo !empty($atendimento['psicologo_id']) ? $atendimento['psicologo_id'] : set_value('psicologo_id') ?>">
+                                <?php echo form_dropdown('psicologo_id', $psicologosDropDown, !empty($atendimento['psicologo_id']) ? $atendimento['psicologo_id'] : set_value('psicologo_id'), ['class' => 'form-control select2', 'id' => 'psicologo_id', 'name' => 'psicologo_id']) ?>
 
                                 <?php if (!empty($errors['psicologo_id'])) : ?>
                                     <div class="alert alert-danger mt-2"> <?php echo $errors['psicologo_id'] ?> </div>
                                 <?php endif; ?>
                             </div>
+
+
+                            <div class="form-group col-sm-6">
+                                <label for="assistente_id">Assistente</label>
+                                <?php echo form_dropdown('assistente_id', $assistentesDropDown, !empty($atendimento['assistente_id']) ? $atendimento['assistente_id'] : set_value('assistente_id'), ['class' => 'form-control select2', 'id' => 'assistente_id', 'name' => 'assistente_id']) ?>
+
+                                <?php if (!empty($errors['assistente_id'])) : ?>
+                                    <div class="alert alert-danger mt-2"> <?php echo $errors['assistente_id'] ?> </div>
+                                <?php endif; ?>
+                            </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-sm-6">
-                                <label for="membro_id">Membro</label>
-                                <input type="text" class="form-control" name="membro_id" id="membro_id" placeholder="Selecione o membro da família" value="<?php echo !empty($atendimento['membro_id']) ? $atendimento['membro_id'] : set_value('membro_id') ?>">
-
-                                <?php if (!empty($errors['membro_id'])) : ?>
-                                    <div class="alert alert-danger mt-2"> <?php echo $errors['membro_id'] ?> </div>
-                                <?php endif; ?>
-                            </div>
-
-                            <div class="form-group col-sm-6">
                                 <label for="atendimento_data">Data</label>
                                 <input type="date" class="form-control" name="atendimento_data" id="atendimento_data" placeholder="Digite a data" value="<?php echo !empty($atendimento['atendimento_data']) ? $atendimento['atendimento_data'] : set_value('atendimento_data') ?>">
-    
+
                                 <?php if (!empty($errors['atendimento_data'])) : ?>
                                     <div class="alert alert-danger mt-2"> <?php echo $errors['atendimento_data'] ?> </div>
                                 <?php endif; ?>
                             </div>
-                        </div>
-
-                        <div class="row">
 
                             <div class="form-group col-sm-6">
                                 <label for="atendimento_hora">Hora</label>
@@ -95,6 +84,22 @@
                                     <div class="alert alert-danger mt-2"> <?php echo $errors['atendimento_hora'] ?> </div>
                                 <?php endif; ?>
                             </div>
+
+                        </div>
+
+                        <div class="row">
+
+
+                            <div class="form-group col-sm-6">
+                                <label for="membro_id">Membro</label>
+                                <?php echo form_dropdown('membro_id', $membrosDropDown, !empty($atendimento['membro_id']) ? $atendimento['membro_id'] : set_value('membro_id'), ['class' => 'form-control select2', 'id' => 'membro_id', 'name' => 'membro_id']) ?>
+
+                                <?php if (!empty($errors['membro_id'])) : ?>
+                                    <div class="alert alert-danger mt-2"> <?php echo $errors['membro_id'] ?> </div>
+                                <?php endif; ?>
+                            </div>
+
+
 
                             <div class="form-group col-sm-6">
                                 <label for="atendimento_desc">Descrição</label>

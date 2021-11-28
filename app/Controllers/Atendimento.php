@@ -4,19 +4,28 @@ namespace App\Controllers;
 
 use App\Models\AtendimentoModel;
 use App\Controllers\BaseController;
+use App\Models\AssistenteModel;
+use App\Models\MembroModel;
+use App\Models\PsicologoModel;
 
 class Atendimento extends BaseController
 {
     protected $atendimentoModel;
+    protected $psicologoModel;
+    protected $assistenteModel;
+    protected $membroModel;
 
     public function __construct()
     {
         $this->atendimentoModel = new AtendimentoModel();
+        $this->psicologoModel = new PsicologoModel();
+        $this->assistenteModel = new AssistenteModel();
+        $this->membroModel = new MembroModel();
     }
 
     public function index()
     {
-        $atendimentos = $this->atendimentoModel->findAll();
+        $atendimentos = $this->atendimentoModel->getAllWithPsicologoseAssistenteseMembros();
 
 
         //  para testar dados vindo do bd
@@ -32,7 +41,19 @@ class Atendimento extends BaseController
     public function incluir()
     {
         $dados = [
-            'titulo' => 'Novo Atendimento'
+            'titulo' => 'Novo Atendimento',
+            'psicologosDropDown' => $this->psicologoModel->formDropDown([
+                'opcaoNova' => false
+            ]
+            ),
+            'assistentesDropDown' => $this->assistenteModel->formDropDown([
+                'opcaoNova' => false
+            ]
+            ),
+            'membrosDropDown' => $this->membroModel->formDropDown([
+                'opcaoNova' => false
+            ]
+            )
         ];
         echo view('atendimentos/form', $dados);
     }
@@ -64,6 +85,18 @@ class Atendimento extends BaseController
         $atendimento = $this->atendimentoModel->getById($id);
         $dados = [
             'titulo' => 'Editar Atendimento',
+            'psicologosDropDown' => $this->psicologoModel->formDropDown([
+                'opcaoNova' => false
+            ]
+            ),
+            'assistentesDropDown' => $this->assistenteModel->formDropDown([
+                'opcaoNova' => false
+            ]
+            ),
+            'membrosDropDown' => $this->membroModel->formDropDown([
+                'opcaoNova' => false
+            ]
+            ),
             'atendimento' => $atendimento
         ];
 

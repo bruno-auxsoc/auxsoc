@@ -28,7 +28,7 @@
         <div class="card">
           <div class="card-header">
             <h3 class="card-title">Cadastro de Visitas - <?php echo count($visitas); ?> registro(s) encontrados</h3>
-            <a href="./visita/incluir" class="float-right btn btn-primary btn-sm">Nova visita</a>
+            <a href="./visita/incluir" class="float-right btn btn-primary btn-sm">Nova Visita</a>
           </div>
           <!-- /.card-header -->
           <div class="card-body table-responsive">

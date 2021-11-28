@@ -10,7 +10,7 @@
       </div>
       <div class="col-sm-6">
         <ol class="breadcrumb float-sm-right">
-          <li class="breadcrumb-item"><a href="<?php echo base_url();?>/dashboard">Home</a></li>
+          <li class="breadcrumb-item"><a href="<?php echo base_url(); ?>/dashboard">Home</a></li>
           <li class="breadcrumb-item active">Atendimentos</li>
         </ol>
       </div>
@@ -28,7 +28,7 @@
         <div class="card">
           <div class="card-header">
             <h3 class="card-title">Cadastro de Atendimentos - <?php echo count($atendimentos); ?> registro(s) encontrados</h3>
-            <a href="./atendimento/incluir" class="float-right btn btn-primary btn-sm">Novo atendimento</a>
+            <a href="./atendimento/incluir" class="float-right btn btn-primary btn-sm">Novo Atendimento</a>
           </div>
           <!-- /.card-header -->
           <div class="card-body table-responsive">
@@ -36,8 +36,8 @@
               <thead>
                 <tr>
                   <th>ID</th>
-                  <th>Assistente</th>
                   <th>Psicólogo</th>
+                  <th>Assistente</th>
                   <th>Membro</th>
                   <th>Data</th>
                   <th>Hora</th>
@@ -48,20 +48,20 @@
               </thead>
               <tbody>
 
-                <?php foreach ($atendimentos as $atendimento) : ?>  
+                <?php foreach ($atendimentos as $atendimento) : ?>
                   <tr>
                     <td class="col-md-1"><?php echo $atendimento['atendimento_id']; ?></td>
-                    <td class="col-md-1"><?php echo $atendimento['assistente_id']; ?></td>
-                    <td class="col-md-1"><?php echo $atendimento['psicologo_id']; ?></td>
-                    <td class="col-md-1"><?php echo $atendimento['membro_id']; ?></td>
-                    <td class="col-md-1"><?php echo date_format(date_create($atendimento['atendimento_data']),"d/m/Y"); ?></td>
+                    <td class="col-md-1"><?php echo $atendimento['psicologo_nome']; ?></td>
+                    <td class="col-md-1"><?php echo $atendimento['assistente_nome']; ?></td>
+                    <td class="col-md-2"><?php echo $atendimento['membro_nome']; ?></td>
+                    <td class="col-md-1"><?php echo date_format(date_create($atendimento['atendimento_data']), "d/m/Y"); ?></td>
                     <td class="col-md-1"><?php echo substr($atendimento['atendimento_hora'], 0, 5); ?></td>
-                    <td class="col-md-2"><?php echo $atendimento['atendimento_desc']; ?></td>
-                    <td class="text-center col-md-1">
-                      <?php  echo anchor("atendimento/editar/{$atendimento['atendimento_id']}", 'Editar', ['class' => 'btn btn-info btn-sm']); ?>
-                      <?php  echo anchor("atendimento/excluir/{$atendimento['atendimento_id']}", 'Excluir', ['class' => 'btn btn-danger btn-sm', 'onclick' => 'return confirma()']); ?>
+                    <td class="col-md-3"><?php echo $atendimento['atendimento_desc']; ?></td>
+                    <td class="text-center col-md-2">
+                      <?php echo anchor("atendimento/editar/{$atendimento['atendimento_id']}", 'Editar', ['class' => 'btn btn-info btn-sm']); ?>
+                      <?php echo anchor("atendimento/excluir/{$atendimento['atendimento_id']}", 'Excluir', ['class' => 'btn btn-danger btn-sm', 'onclick' => 'return confirma()']); ?>
                     </td>
-                    
+
                   </tr>
 
                 <?php endforeach; ?>
@@ -71,8 +71,8 @@
               <tfoot>
                 <tr>
                   <th>ID</th>
-                  <th>Assistente</th>
                   <th>Psicólogo</th>
+                  <th>Assistente</th>
                   <th>Membro</th>
                   <th>Data</th>
                   <th>Hora</th>
@@ -97,11 +97,10 @@
 
 
 <script>
-  function confirma(){
-    if(!confirm("Deseja excluir o registro?")){
+  function confirma() {
+    if (!confirm("Deseja excluir o registro?")) {
       return false;
-    }
-    else{
+    } else {
       return true;
     }
   }
