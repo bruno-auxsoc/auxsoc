@@ -20,7 +20,7 @@ E-mail para contato
 [2002564@aluno.univesp.br](mailto:2002564@aluno.univesp.br).
 
 
-Aenean dui odio, pulvinar non placerat vitae, porttitor et dui. Proin nulla odio, sodales a est a, semper aliquet purus. Maecenas tincidunt magna a blandit bibendum. Ut eget metus justo. Suspendisse a mi porttitor, luctus neque ac, consectetur dui. Pellentesque in venenatis nibh. Pellentesque metus erat, sollicitudin ac ultrices nec, commodo in elit.
+Se necessário entre em contato através do e-mail br.mour@gmail.com.
 
 
 ## Objetivo
