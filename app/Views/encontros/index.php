@@ -10,7 +10,7 @@
       </div>
       <div class="col-sm-6">
         <ol class="breadcrumb float-sm-right">
-          <li class="breadcrumb-item"><a href="<?php echo base_url();?>/dashboard">Home</a></li>
+          <li class="breadcrumb-item"><a href="<?php echo base_url(); ?>/dashboard">Home</a></li>
           <li class="breadcrumb-item active">Encontros</li>
         </ol>
       </div>
@@ -34,26 +34,28 @@
           <div class="card-body table-responsive">
             <table id="example1" class="table table-bordered table-striped">
               <thead>
-                <tr>
+              <tr>
+                  <th>ID</th>
+                  <th>Data</th>
                   <th>Participante</th>
                   <th>Grupo</th>
-                  <th>Data</th>
                   <th>Ações</th>
-
+                  
                 </tr>
               </thead>
               <tbody>
 
-                <?php foreach ($encontros as $encontro) : ?>  
+                <?php foreach ($encontros as $encontro) : ?>
                   <tr>
-                    <td class="col-md-1"><?php echo $encontro['participante_id']; ?></td>
-                    <td class="col-md-6"><?php echo $encontro['grupo_id']; ?></td>
-                    <td class="col-md-3"><?php echo $encontro['encontro_data']; ?></td>
+                    <td class="col-md-1"><?php echo $encontro['encontro_id']; ?></td>
+                    <td class="col-md-1"><?php echo date_format(date_create($encontro['encontro_data']), "d/m/Y"); ?></td>
+                    <td class="col-md-3"><?php echo $encontro['participante_nome']; ?></td>
+                    <td class="col-md-5"><?php echo $encontro['grupo_nome']; ?></td>
                     <td class="text-center col-md-2">
-                      <?php  echo anchor("encontro/editar/{$encontro['encontro_id']}", 'Editar', ['class' => 'btn btn-info btn-sm']); ?>
-                      <?php  echo anchor("encontro/excluir/{$encontro['encontro_id']}", 'Excluir', ['class' => 'btn btn-danger btn-sm', 'onclick' => 'return confirma()']); ?>
+                      <?php echo anchor("encontro/editar/{$encontro['encontro_id']}", 'Editar', ['class' => 'btn btn-info btn-sm']); ?>
+                      <?php echo anchor("encontro/excluir/{$encontro['encontro_id']}", 'Excluir', ['class' => 'btn btn-danger btn-sm', 'onclick' => 'return confirma()']); ?>
                     </td>
-                    
+
                   </tr>
 
                 <?php endforeach; ?>
@@ -62,9 +64,10 @@
               </tbody>
               <tfoot>
                 <tr>
+                  <th>ID</th>
+                  <th>Data</th>
                   <th>Participante</th>
                   <th>Grupo</th>
-                  <th>Data</th>
                   <th>Ações</th>
 
                 </tr>
@@ -85,11 +88,10 @@
 
 
 <script>
-  function confirma(){
-    if(!confirm("Deseja excluir o registro?")){
+  function confirma() {
+    if (!confirm("Deseja excluir o registro?")) {
       return false;
-    }
-    else{
+    } else {
       return true;
     }
   }

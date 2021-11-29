@@ -4,19 +4,26 @@ namespace App\Controllers;
 
 use App\Models\EncontroModel;
 use App\Controllers\BaseController;
+use App\Models\GrupoModel;
+use App\Models\ParticipanteModel;
 
 class Encontro extends BaseController
 {
     protected $encontroModel;
+    protected $participanteModel;
+    protected $grupoModel;
+
 
     public function __construct()
     {
         $this->encontroModel = new EncontroModel();
+        $this->participanteModel = new ParticipanteModel();
+        $this->grupoModel = new GrupoModel();
     }
 
     public function index()
     {
-        $encontros = $this->encontroModel->findAll();
+        $encontros = $this->encontroModel->getAllWithParticipanteseGrupos();
 
 
         //  para testar dados vindo do bd
@@ -32,7 +39,15 @@ class Encontro extends BaseController
     public function incluir()
     {
         $dados = [
-            'titulo' => 'Novo Encontro'
+            'titulo' => 'Novo Encontro',
+            'participantesDropDown' => $this->participanteModel->formDropDown([
+                'opcaoNova' => false
+            ]
+            ),
+            'gruposDropDown' => $this->grupoModel->formDropDown([
+                'opcaoNova' => false
+            ]
+            )
         ];
         echo view('encontros/form', $dados);
     }
@@ -67,6 +82,14 @@ class Encontro extends BaseController
         $encontro = $this->encontroModel->getById($id);
         $dados = [
             'titulo' => 'Editar Encontro',
+            'participantesDropDown' => $this->participanteModel->formDropDown([
+                'opcaoNova' => false
+            ]
+            ),
+            'gruposDropDown' => $this->grupoModel->formDropDown([
+                'opcaoNova' => false
+            ]
+            ),
             'encontro' => $encontro
         ];
 

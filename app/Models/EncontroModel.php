@@ -86,6 +86,15 @@ class EncontroModel extends BaseModel
 		return $result;
 	}
 
+	public function getAllWithParticipanteseGrupos(){
+		$this->select(
+			"*"
+		);
+		$this->join('participantes', 'participantes.participante_id = encontros.participante_id');
+		$this->join('grupos', 'grupos.grupo_id = encontros.grupo_id');
+		return $this->findAll();
+	}
+
 
 }
 
