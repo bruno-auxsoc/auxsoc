@@ -37,18 +37,18 @@ Devem ser registradas a informações como: nome do responsável, Número de Ins
 ## Configuração e Tecnologias Utilizadas
 
 
-Versão 21.11.28
-FrameWork - CodeIgniter 4.1.4
-Banco de dados - Mysql
-PHP 7.4
-HTML
-JavaScript
-Bootstrap
-CSS
-FontAwesome
-IonIcons
-Datatables
-Select2
+- Versão 21.11.28
+- FrameWork - CodeIgniter 4.1.4
+- Banco de dados - Mysql
+- PHP 7.4
+- HTML
+- JavaScript
+- Bootstrap
+- CSS
+- FontAwesome
+- IonIcons
+- Datatables
+- Select2
 
 
 
