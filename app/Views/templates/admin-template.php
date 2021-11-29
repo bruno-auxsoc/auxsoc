@@ -119,7 +119,7 @@ $ativo = $pagina[1];
         <!-- Sidebar user panel (optional) -->
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
           <div class="image">
-            <img src="<?php echo base_url(); ?>/adminlte/img/bruno.png" class="img-circle elevation-2" alt="Bruno Moura">
+            <img src="https://www.shareicon.net/data/512x512/2016/07/11/794381_people_512x512.png" class="img-circle elevation-2" alt="Bruno Moura">
           </div>
           <div class="info">
             <a href="#" class="d-block">Bruno Moura</a>
