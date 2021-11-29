@@ -59,10 +59,6 @@ class Encaminhamento extends BaseController
             ]);
         } else {
             $dados = [
-            ];
-            echo view('encaminhamentos/form', $dados);
-            
-            $dados = [
                 'titulo' => !empty($post['encaminhamento_id']) ? 'Editar Encaminhamento' : 'Novo Encaminhamento',
                 'errors' => $this->encaminhamentoModel->errors(),
                 'atendimentosDropDown' => $this->encaminhamentoModel->formDropDown([
