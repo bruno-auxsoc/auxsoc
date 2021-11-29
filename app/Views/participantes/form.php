@@ -72,14 +72,16 @@
                                 <div class="alert alert-danger mt-2"> <?php echo $errors['participante_cpf'] ?> </div>
                             <?php endif; ?>
                         </div>
+
                         <div class="form-group col-sm-6">
-                            <label for="participante_dn">Data</label>
-                            <input type="text" class="form-control" name="participante_dn" id="participante_dn" placeholder="Digite a Data" value="<?php echo !empty($participante['participante_dn']) ? $participante['participante_dn'] : set_value('participante_dn') ?>">
+                            <label for="participante_dn">Data Nasc.</label>
+                            <input type="date" class="form-control" name="participante_dn" id="participante_dn" placeholder="Digite a data" value="<?php echo !empty($participante['participante_dn']) ? $participante['participante_dn'] : set_value('participante_dn') ?>">
 
                             <?php if (!empty($errors['participante_dn'])) : ?>
                                 <div class="alert alert-danger mt-2"> <?php echo $errors['participante_dn'] ?> </div>
                             <?php endif; ?>
                         </div>
+
                         <div class="form-group col-sm-6">
                             <label for="participante_telefone">Telefone</label>
                             <input type="text" class="form-control" name="participante_telefone" id="participante_telefone" placeholder="Digite a Telefone" value="<?php echo !empty($participante['participante_telefone']) ? $participante['participante_telefone'] : set_value('participante_telefone') ?>">

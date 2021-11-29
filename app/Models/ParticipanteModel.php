@@ -63,6 +63,44 @@ class ParticipanteModel extends BaseModel
 ];
 
 
+public function formDropDown(array $params = null, array $order = null)
+{
+	$this->select('participante_id, participante_nome');
+
+	if (!is_null($params) && isset($params['participante_id'])){
+		$this->where(['participante_id' => $params['participante_id']]);
+
+	}
+
+	$participantesArray = $this->findAll();
+
+	$optionsParticipantes = array_column($participantesArray, 'participante_nome', 'participante_id');
+
+	$optionsSelecione = [
+		'' => 'Selecione...'
+	];
+
+	$selectConteudo = $optionsSelecione + $optionsParticipantes;
+
+	$novoParticipante = [];
+
+	if(!is_null($params) && isset($params['opcaoNova'])){
+		if((bool)$params['opcaoNova'] === true){
+			$novoParticipante = [
+				'---' => [
+					'n' => 'Novo Participante...'
+				]
+				];
+		}
+	}
+
+	$result = $selectConteudo + $novoParticipante;
+
+	return $result;
+}
+
+
+
 public function getAllWithGrupos(){
 	$this->select(
 		"*"

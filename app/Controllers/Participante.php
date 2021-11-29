@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Models\ParticipanteModel;
 use App\Controllers\BaseController;
+use App\Models\GrupoModel;
 
 class Participante extends BaseController
 {
@@ -13,7 +14,7 @@ class Participante extends BaseController
     public function __construct()
     {
         $this->participanteModel = new ParticipanteModel();
-        // $this->grupoModel = new GrupoModel();
+        $this->grupoModel = new GrupoModel();
     }
 
     public function index()
@@ -73,6 +74,10 @@ class Participante extends BaseController
         $participante = $this->participanteModel->getById($id);
         $dados = [
             'titulo' => 'Editar Participante',
+            'gruposDropDown' => $this->grupoModel->formDropDown([
+                'opcaoNova' => false
+            ]
+            ),
             'participante' => $participante
         ];
 
