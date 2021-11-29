@@ -39,7 +39,7 @@ class Encaminhamento extends BaseController
             'atendimentosDropDown' => $this->atendimentoModel->formDropDown([
                 'opcaoNova' => false
             ]
-            ),
+            )
         ];
         echo view('encaminhamentos/form', $dados);
     }
@@ -65,7 +65,7 @@ class Encaminhamento extends BaseController
             $dados = [
                 'titulo' => !empty($post['encaminhamento_id']) ? 'Editar Encaminhamento' : 'Novo Encaminhamento',
                 'errors' => $this->encaminhamentoModel->errors(),
-                'atendimentosDropDown' => $this->encaminhamentoModel->formDropDown([
+                'atendimentosDropDown' => $this->atendimentoModel->formDropDown([
                     'opcaoNova' => false
                 ]
                 )

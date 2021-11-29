@@ -80,7 +80,7 @@ class Familia extends BaseController
     {
         if ($this->familiaModel->delete($id)) {
             return redirect()->to('mensagem/sucesso')->with('mensagem', [
-                'mensagem' => "Família excluído com sucesso",
+                'mensagem' => "Família excluída com sucesso",
                 'link' => [
                     'to' => 'familia',
                     'texto' => 'Voltar para Famílias'

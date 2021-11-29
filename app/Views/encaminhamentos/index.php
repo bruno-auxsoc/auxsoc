@@ -28,7 +28,7 @@
         <div class="card">
           <div class="card-header">
             <h3 class="card-title">Cadastro de Encaminhamentos - <?php echo count($encaminhamentos); ?> registro(s) encontrados</h3>
-            <a href="./encaminhamento/incluir" class="float-right btn btn-primary btn-sm">Novo encaminhamento</a>
+            <a href="./encaminhamento/incluir" class="float-right btn btn-primary btn-sm">Novo Encaminhamento</a>
           </div>
           <!-- /.card-header -->
           <div class="card-body table-responsive">
@@ -48,10 +48,10 @@
                 <?php foreach ($encaminhamentos as $encaminhamento) : ?>  
                   <tr>
                     <td class="col-md-1"><?php echo $encaminhamento['encaminhamento_id']; ?></td>
-                    <td class="col-md-1"><?php echo $encaminhamento['encaminhamento_tipo']; ?></td>
-                    <td class="col-md-2"><?php echo $encaminhamento['encaminhamento_desc']; ?></td>
-                    <td class="col-md-1"><?php echo $encaminhamento['atendimento_id']; ?></td>
-                    <td class="text-center col-md-1">
+                    <td class="col-md-2"><?php echo $encaminhamento['encaminhamento_tipo']; ?></td>
+                    <td class="col-md-4"><?php echo $encaminhamento['encaminhamento_desc']; ?></td>
+                    <td class="col-md-3"><?php echo $encaminhamento['atendimento_id']; ?></td>
+                    <td class="text-center col-md-2">
                       <?php  echo anchor("encaminhamento/editar/{$encaminhamento['encaminhamento_id']}", 'Editar', ['class' => 'btn btn-info btn-sm']); ?>
                       <?php  echo anchor("encaminhamento/excluir/{$encaminhamento['encaminhamento_id']}", 'Excluir', ['class' => 'btn btn-danger btn-sm', 'onclick' => 'return confirma()']); ?>
                     </td>
