@@ -46,6 +46,41 @@ class AtendimentoModel extends BaseModel
 
 	];
 
+	public function formDropDown(array $params = null, array $order = null)
+	{
+		$this->select('atendimento_id');
+
+		if (!is_null($params) && isset($params['atendimento_id'])){
+			$this->where(['atendimento_id' => $params['atendimento_id']]);
+
+		}
+
+		$atendimentosArray = $this->findAll();
+
+		$optionsAtendimentos = array_column($atendimentosArray, 'atendimento_id', 'atendimento_id');
+
+		$optionsSelecione = [
+			'' => 'Selecione...'
+		];
+
+		$selectConteudo = $optionsSelecione + $optionsAtendimentos;
+
+		$novoAtendimento = [];
+
+		if(!is_null($params) && isset($params['opcaoNova'])){
+			if((bool)$params['opcaoNova'] === true){
+				$novoAtendimento = [
+					'---' => [
+						'n' => 'Novo Atendimento...'
+					]
+					];
+			}
+		}
+
+		$result = $selectConteudo + $novoAtendimento;
+
+		return $result;
+	}
 
 	public function getAllWithPsicologoseAssistenteseMembros(){
 		$this->select(

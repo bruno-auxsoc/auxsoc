@@ -38,7 +38,7 @@
                   <th>ID</th>
                   <th>Tipo</th>
                   <th>Descrição</th>
-                  <th>Atendimento</th>
+                  <th>Atendimento ID</th>
                   <th>Ações</th>
 
                 </tr>
@@ -66,7 +66,7 @@
                   <th>ID</th>
                   <th>Tipo</th>
                   <th>Descrição</th>
-                  <th>Atendimento</th>
+                  <th>Atendimento ID</th>
                   <th>Ações</th>
 
                 </tr>

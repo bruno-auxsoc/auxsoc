@@ -36,8 +36,11 @@
               <thead>
                 <tr>
                   <th>ID</th>
+                  <th>Projeto</th>
                   <th>Nome</th>
                   <th>Periodo</th>
+                  <th>Max. Pessoas</th>
+                  <th>Nº Encontros</th>
                   <th>Oficineiro</th>
                   <th>Ações</th>
 
@@ -48,9 +51,12 @@
                 <?php foreach ($grupos as $grupo) : ?>
                   <tr>
                     <td class="col-md-1"><?php echo $grupo['grupo_id']; ?></td>
-                    <td class="col-md-3"><?php echo $grupo['grupo_nome']; ?></td>
-                    <td class="col-md-3"><?php echo $grupo['grupo_periodo']; ?></td>
-                    <td class="col-md-3"><?php echo $grupo['grupo_oficineiro']; ?></td>
+                    <td class="col-md-1"><?php echo $grupo['projeto_nome']; ?></td>
+                    <td class="col-md-2"><?php echo $grupo['grupo_nome']; ?></td>
+                    <td class="col-md-2"><?php echo $grupo['grupo_periodo']; ?></td>
+                    <td class="col-md-1"><?php echo $grupo['grupo_max_pessoas']; ?></td>
+                    <td class="col-md-1"><?php echo $grupo['grupo_nro_encontros']; ?></td>
+                    <td class="col-md-2"><?php echo $grupo['grupo_oficineiro']; ?></td>
                     <td class="text-center col-md-2">
                       <?php echo anchor("grupo/editar/{$grupo['grupo_id']}", 'Editar', ['class' => 'btn btn-info btn-sm']); ?>
                       <?php echo anchor("grupo/excluir/{$grupo['grupo_id']}", 'Excluir', ['class' => 'btn btn-danger btn-sm', 'onclick' => 'return confirma()']); ?>
@@ -65,8 +71,11 @@
               <tfoot>
                 <tr>
                   <th>ID</th>
+                  <th>Projeto</th>
                   <th>Nome</th>
-                  <th>Período</th>
+                  <th>Periodo</th>
+                  <th>Max. Pessoas</th>
+                  <th>Nº Encontros</th>
                   <th>Oficineiro</th>
                   <th>Ações</th>
 
