@@ -42,8 +42,18 @@
                     echo form_open('grupo/salvar');
                     ?>
                     <div class="card-body">
+
                         <div class="form-group col-sm-6">
                             <input type="hidden" class="form-control" name="grupo_id" id="grupo_id" placeholder="" value="<?php echo !empty($grupo['grupo_id']) ? $grupo['grupo_id'] : set_value('grupo_id') ?>">
+                        </div>
+
+                        <div class="form-group col-sm-6">
+                            <label for="projeto_id">Projeto</label>
+                            <?php echo form_dropdown('projeto_id', $projetosDropDown, !empty($grupo['projeto_id']) ? $grupo['projeto_id'] : set_value('projeto_id'), ['class' => 'form-control select2', 'id' => 'projeto_id', 'name' => 'projeto_id']) ?>
+
+                            <?php if (!empty($errors['projeto_id'])) : ?>
+                                <div class="alert alert-danger mt-2"> <?php echo $errors['projeto_id'] ?> </div>
+                            <?php endif; ?>
                         </div>
 
                         <div class="form-group col-sm-6">
@@ -54,6 +64,7 @@
                                 <div class="alert alert-danger mt-2"> <?php echo $errors['grupo_nome'] ?> </div>
                             <?php endif; ?>
                         </div>
+
                         <div class="form-group col-sm-6">
                             <label for="grupo_periodo">Período</label>
                             <input type="text" class="form-control" name="grupo_periodo" id="grupo_periodo" placeholder="Digite o Período" value="<?php echo !empty($grupo['grupo_periodo']) ? $grupo['grupo_periodo'] : set_value('grupo_periodo') ?>" >
@@ -62,6 +73,16 @@
                                 <div class="alert alert-danger mt-2"> <?php echo $errors['grupo_periodo'] ?> </div>
                             <?php endif; ?>
                         </div>
+
+                        <div class="form-group col-sm-6">
+                            <label for="grupo_max_pessoas">Max. Pessoas</label>
+                            <input type="text" class="form-control" name="grupo_max_pessoas" id="grupo_max_pessoas" placeholder="Digite a quantidade de pessoas" value="<?php echo !empty($grupo['grupo_max_pessoas']) ? $grupo['grupo_max_pessoas'] : set_value('grupo_max_pessoas') ?>" >
+                            
+                            <?php if (!empty($errors['grupo_max_pessoas'])) : ?>
+                                <div class="alert alert-danger mt-2"> <?php echo $errors['grupo_max_pessoas'] ?> </div>
+                            <?php endif; ?>
+                        </div>
+
                         <div class="form-group col-sm-6">
                             <label for="grupo_oficineiro">Oficineiro</label>
                             <input type="text" class="form-control" name="grupo_oficineiro" id="grupo_oficineiro" placeholder="Digite o Oficineiro" value="<?php echo !empty($grupo['grupo_oficineiro']) ? $grupo['grupo_oficineiro'] : set_value('grupo_oficineiro') ?>" >

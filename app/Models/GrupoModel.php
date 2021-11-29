@@ -86,8 +86,18 @@ class GrupoModel extends BaseModel
 		}
 
 		$result = $selectConteudo + $novoGrupo;
+		
 
 		return $result;
+	}
+
+
+	public function getAllWithProjetos(){
+		$this->select(
+			"*"
+		);
+		$this->join('projetos', 'projetos.projeto_id = grupos.projeto_id');
+		return $this->findAll();
 	}
 
 

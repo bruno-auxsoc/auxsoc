@@ -4,19 +4,22 @@ namespace App\Controllers;
 
 use App\Models\GrupoModel;
 use App\Controllers\BaseController;
+use App\Models\ProjetoModel;
 
 class Grupo extends BaseController
 {
     protected $grupoModel;
+    protected $projetoModel;
 
     public function __construct()
     {
         $this->grupoModel = new GrupoModel();
+        $this->projetoModel = new ProjetoModel();
     }
 
     public function index()
     {
-        $grupos = $this->grupoModel->findAll();
+        $grupos = $this->grupoModel->getAllWithProjetos();
 
 
         //  para testar dados vindo do bd
@@ -32,7 +35,11 @@ class Grupo extends BaseController
     public function incluir()
     {
         $dados = [
-            'titulo' => 'Novo Grupo'
+            'titulo' => 'Novo Grupo',
+            'projetosDropDown' => $this->projetoModel->formDropDown([
+                'opcaoNova' => false
+            ]
+            )
         ];
         echo view('grupos/form', $dados);
     }
@@ -67,6 +74,10 @@ class Grupo extends BaseController
         $grupo = $this->grupoModel->getById($id);
         $dados = [
             'titulo' => 'Editar Grupo',
+            'projetosDropDown' => $this->projetoModel->formDropDown([
+                'opcaoNova' => false
+            ]
+            ),
             'grupo' => $grupo
         ];
 

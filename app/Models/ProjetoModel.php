@@ -63,6 +63,45 @@ class ProjetoModel extends BaseModel
 
 ];
 
+
+public function formDropDown(array $params = null, array $order = null)
+{
+	$this->select('projeto_id, projeto_nome');
+
+	if (!is_null($params) && isset($params['projeto_id'])){
+		$this->where(['projeto_id' => $params['projeto_id']]);
+
+	}
+
+	$projetosArray = $this->findAll();
+
+	$optionsProjetos = array_column($projetosArray, 'projeto_nome', 'projeto_id');
+
+	$optionsSelecione = [
+		'' => 'Selecione...'
+	];
+
+	$selectConteudo = $optionsSelecione + $optionsProjetos;
+
+	$novoProjeto = [];
+
+	if(!is_null($params) && isset($params['opcaoNova'])){
+		if((bool)$params['opcaoNova'] === true){
+			$novoProjeto = [
+				'---' => [
+					'n' => 'Novo Projeto...'
+				]
+				];
+		}
+	}
+
+	$result = $selectConteudo + $novoProjeto;
+
+	return $result;
+}
+
+
+
 }
 
 
