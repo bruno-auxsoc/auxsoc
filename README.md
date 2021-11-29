@@ -23,21 +23,32 @@ E-mail para contato
 Aenean dui odio, pulvinar non placerat vitae, porttitor et dui. Proin nulla odio, sodales a est a, semper aliquet purus. Maecenas tincidunt magna a blandit bibendum. Ut eget metus justo. Suspendisse a mi porttitor, luctus neque ac, consectetur dui. Pellentesque in venenatis nibh. Pellentesque metus erat, sollicitudin ac ultrices nec, commodo in elit.
 
 
-## Instalação e atualizações
+## Objetivo
 
 
 
-Praesent ligula odio, imperdiet ut enim nec, pretium bibendum orci. Pellentesque at diam eleifend, molestie sapien non, tincidunt augue. Nunc placerat felis et nulla mollis, eget facilisis nunc efficitur. Vestibulum varius ultricies lorem, eget mattis nisl sagittis non. Duis euismod est at tellus malesuada, vestibulum tempus velit sodales. Nulla eu mauris at sem ultricies viverra. In at magna et felis ullamcorper vulputate. Maecenas risus lectus, hendrerit non ipsum et, posuere volutpat quam. Morbi dolor mi, gravida vel consequat et, lobortis id purus. Nulla nec est quam. Nunc eu libero eros. Mauris venenatis elementum magna, a dapibus nunc malesuada sit amet. Aenean consequat sem urna, a aliquet elit scelerisque sed. Aenean consequat dapibus diam, eu hendrerit lectus euismod id. Morbi at ullamcorper tellus.
+O sistema tem como objetivo cadastrar e gerenciar as informações de usuários como nome do responsável familiar, número de inscrição social, entre outras informações, permitindo que o acesso do Assistente Social/Psicólogo seja mais eficiente e que seja possível gerar relatórios de forma mais rápida e diminuir o tempo de procura por informações.
 
-## Configuração
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sapien ante, vehicula et eros ut, venenatis condimentum est. Nunc vehicula sit amet ligula et varius. Proin laoreet, quam non molestie blandit, ex felis consectetur dui, id ornare nisl dui a mi. Nulla auctor mauris in est aliquet vehicula. Phasellus mollis eros vitae fermentum cursus. Integer ac elementum libero. Maecenas porttitor est vitae magna sollicitudin, laoreet feugiat ligula porta.
-
-Integer turpis leo, lacinia eget ligula id, porttitor ornare mauris. Sed finibus aliquam sapien, vitae molestie ligula lobortis malesuada. Quisque lectus elit, congue lacinia aliquet sit amet, varius ac neque. Curabitur blandit venenatis enim, vel fermentum urna dignissim venenatis. Nullam consectetur rutrum sapien, id iaculis elit efficitur sit amet. Integer bibendum eros at mollis placerat. Morbi luctus tristique lorem at rhoncus. Nunc dolor quam, venenatis at lorem et, vehicula maximus turpis. Nunc at ornare dolor.
+## Informações Principais
+Devem ser registradas a informações como: nome do responsável, Número de Inscrição Social (NIS), data de inclusão no programa de Proteção e Atendimento Integral a Família (PAIF), registros dos encaminhamentos feitos, registros dos atendimentos, participação da família em projetos (como oficinas) desenvolvidos no CRAS e informações de endereço e contato.
 
 
 
+## Configuração e Tecnologias Utilizadas
+
+
+Versão 21.11.28
+FrameWork - CodeIgniter 4.1.4
+Banco de dados - Mysql
+PHP 7.4
+HTML
+JavaScript
+Bootstrap
+CSS
+FontAwesome
+IonIcons
+Datatables
+Select2
 
 
 
